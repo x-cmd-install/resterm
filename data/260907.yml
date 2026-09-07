@@ -1,0 +1,166 @@
+about:
+  description: "Terminal API client for HTTP, GraphQL and gRPC. Plain .http files you can diff and version, with workflows, mocks, profiling, tracing, OpenAPI import, SSH tunnels, Kubernetes port-forwards, WebSocket, SSE and a CLI runner."
+  license: Apache-2.0
+  homepage: 
+  head: df43889
+  archived: false
+  latestVersion: "v1.6.0"
+  collectedAt: 2026-09-07T04:37:29Z
+timeline:
+  created: 2025-09-30
+  lastCommit: 2026-09-06
+  lastRelease: 2026-09-06
+popularity:
+  star: 1913
+  watcher: 5
+  fork: 53
+  release: 210
+  contributor: 3
+  pullRequest: 363
+  issue: 37
+language:
+  Go: 6916460
+  Shell: 5571
+  PowerShell: 5104
+totalBytes: 6927135
+recent:
+  last30d:
+    since: 2026-08-08
+    release: 20
+    mergedPR: 40
+    openPR: 0
+    closedIssue: 2
+    openIssue: 0
+    commit: 72
+  last60d:
+    since: 2026-07-09
+    release: 33
+    mergedPR: 79
+    openPR: 0
+    closedIssue: 2
+    openIssue: 0
+    commit: 144
+  last90d:
+    since: 2026-06-09
+    release: 45
+    mergedPR: 101
+    openPR: 0
+    closedIssue: 5
+    openIssue: 0
+    commit: 196
+  last180d:
+    since: 2026-03-11
+    release: 79
+    mergedPR: 181
+    openPR: 0
+    closedIssue: 14
+    openIssue: 0
+    commit: 445
+  last360d:
+    since: 2025-09-12
+    release: 100
+    mergedPR: 354
+    openPR: 0
+    closedIssue: 37
+    openIssue: 0
+    commit: 1166
+  last720d:
+    since: 2024-09-17
+    release: 100
+    mergedPR: 354
+    openPR: 0
+    closedIssue: 37
+    openIssue: 0
+    commit: 1370
+total:
+  release: 210
+  mergedPR: 354
+  openPR: 0
+  closedIssue: 37
+  openIssue: 0
+  commit: 1370
+---
+path: /home/runner/.x-repo/github.com/unkn0wn-root/resterm
+collectedAt: 2026-09-07T04:37:35Z
+loc:
+  Go:
+    code: 237714
+    comments: 4233
+    blanks: 24237
+    files: 1125
+  Yaml:
+    code: 607
+    comments: 0
+    blanks: 0
+    files: 2
+  Toml:
+    code: 486
+    comments: 12
+    blanks: 168
+    files: 3
+  Json:
+    code: 310
+    comments: 0
+    blanks: 0
+    files: 5
+  Sh:
+    code: 163
+    comments: 4
+    blanks: 39
+    files: 2
+  PowerShell:
+    code: 149
+    comments: 0
+    blanks: 34
+    files: 1
+  Graphql:
+    code: 17
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 3981
+    blanks: 2106
+    files: 28
+total:
+  code: 239717
+  comments: 8242
+  blanks: 26601
+  files: 1167
+---
+
+---
+eget:
+  collectedAt: 2026-09-07T04:37:36+00:00
+  platform:
+    darwin/arm64:
+      name:  resterm_Darwin_arm64
+      url:   https://github.com/unkn0wn-root/resterm/releases/download/v1.6.0/resterm_Darwin_arm64
+      size:  84616978
+      score: 38
+    darwin/amd64:
+      name:  resterm_Darwin_x86_64
+      url:   https://github.com/unkn0wn-root/resterm/releases/download/v1.6.0/resterm_Darwin_x86_64
+      size:  89290048
+      score: 38
+    linux/arm64:
+      name:  resterm_Linux_arm64
+      url:   https://github.com/unkn0wn-root/resterm/releases/download/v1.6.0/resterm_Linux_arm64
+      size:  82182306
+      score: 38
+    linux/amd64:
+      name:  resterm_Linux_x86_64
+      url:   https://github.com/unkn0wn-root/resterm/releases/download/v1.6.0/resterm_Linux_x86_64
+      size:  87527689
+      score: 38
+    win/arm64:
+      name:  resterm_Windows_arm64.exe
+      url:   https://github.com/unkn0wn-root/resterm/releases/download/v1.6.0/resterm_Windows_arm64.exe
+      size:  82894848
+      score: 38
+    win/amd64:
+      name:  resterm_Windows_x86_64.exe
+      url:   https://github.com/unkn0wn-root/resterm/releases/download/v1.6.0/resterm_Windows_x86_64.exe
+      size:  89182720
+      score: 38
