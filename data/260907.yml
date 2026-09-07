@@ -2,13 +2,13 @@ about:
   description: "Terminal API client for HTTP, GraphQL and gRPC. Plain .http files you can diff and version, with workflows, mocks, profiling, tracing, OpenAPI import, SSH tunnels, Kubernetes port-forwards, WebSocket, SSE and a CLI runner."
   license: Apache-2.0
   homepage: 
-  head: df43889
+  head: 23792d6
   archived: false
   latestVersion: "v1.6.0"
-  collectedAt: 2026-09-07T04:37:29Z
+  collectedAt: 2026-09-07T19:50:39Z
 timeline:
   created: 2025-09-30
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 2026-09-06
 popularity:
   star: 1913
@@ -16,78 +16,78 @@ popularity:
   fork: 53
   release: 210
   contributor: 3
-  pullRequest: 363
+  pullRequest: 364
   issue: 37
 language:
-  Go: 6916460
+  Go: 7003894
   Shell: 5571
   PowerShell: 5104
-totalBytes: 6927135
+totalBytes: 7014569
 recent:
   last30d:
     since: 2026-08-08
     release: 20
-    mergedPR: 40
+    mergedPR: 41
     openPR: 0
     closedIssue: 2
     openIssue: 0
-    commit: 72
+    commit: 73
   last60d:
     since: 2026-07-09
     release: 33
-    mergedPR: 79
+    mergedPR: 80
     openPR: 0
     closedIssue: 2
     openIssue: 0
-    commit: 144
+    commit: 145
   last90d:
     since: 2026-06-09
     release: 45
-    mergedPR: 101
+    mergedPR: 102
     openPR: 0
     closedIssue: 5
     openIssue: 0
-    commit: 196
+    commit: 197
   last180d:
     since: 2026-03-11
     release: 79
-    mergedPR: 181
+    mergedPR: 182
     openPR: 0
     closedIssue: 14
     openIssue: 0
-    commit: 445
+    commit: 446
   last360d:
     since: 2025-09-12
     release: 100
-    mergedPR: 354
+    mergedPR: 355
     openPR: 0
     closedIssue: 37
     openIssue: 0
-    commit: 1166
+    commit: 1167
   last720d:
     since: 2024-09-17
     release: 100
-    mergedPR: 354
+    mergedPR: 355
     openPR: 0
     closedIssue: 37
     openIssue: 0
-    commit: 1370
+    commit: 1371
 total:
   release: 210
-  mergedPR: 354
+  mergedPR: 355
   openPR: 0
   closedIssue: 37
   openIssue: 0
-  commit: 1370
+  commit: 1371
 ---
 path: /home/runner/.x-repo/github.com/unkn0wn-root/resterm
-collectedAt: 2026-09-07T04:37:35Z
+collectedAt: 2026-09-07T19:50:45Z
 loc:
   Go:
-    code: 237714
-    comments: 4233
-    blanks: 24237
-    files: 1125
+    code: 240197
+    comments: 4295
+    blanks: 24425
+    files: 1136
   Yaml:
     code: 607
     comments: 0
@@ -120,19 +120,19 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 3981
-    blanks: 2106
+    comments: 4005
+    blanks: 2120
     files: 28
 total:
-  code: 239717
-  comments: 8242
-  blanks: 26601
-  files: 1167
+  code: 242206
+  comments: 8328
+  blanks: 26803
+  files: 1178
 ---
 
 ---
 eget:
-  collectedAt: 2026-09-07T04:37:36+00:00
+  collectedAt: 2026-09-07T19:50:47+00:00
   platform:
     darwin/arm64:
       name:  resterm_Darwin_arm64
