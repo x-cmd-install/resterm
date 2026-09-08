@@ -5,7 +5,7 @@ about:
   head: 23792d6
   archived: false
   latestVersion: "v1.6.0"
-  collectedAt: 2026-09-08T01:52:49Z
+  collectedAt: 2026-09-08T04:37:42Z
 timeline:
   created: 2025-09-30
   lastCommit: 2026-09-07
@@ -17,7 +17,7 @@ popularity:
   release: 210
   contributor: 3
   pullRequest: 364
-  issue: 37
+  issue: 38
 language:
   Go: 7003894
   Shell: 5571
@@ -30,7 +30,7 @@ recent:
     mergedPR: 41
     openPR: 0
     closedIssue: 2
-    openIssue: 0
+    openIssue: 1
     commit: 73
   last60d:
     since: 2026-07-10
@@ -38,7 +38,7 @@ recent:
     mergedPR: 79
     openPR: 0
     closedIssue: 2
-    openIssue: 0
+    openIssue: 1
     commit: 145
   last90d:
     since: 2026-06-10
@@ -46,7 +46,7 @@ recent:
     mergedPR: 102
     openPR: 0
     closedIssue: 5
-    openIssue: 0
+    openIssue: 1
     commit: 197
   last180d:
     since: 2026-03-12
@@ -54,7 +54,7 @@ recent:
     mergedPR: 182
     openPR: 0
     closedIssue: 14
-    openIssue: 0
+    openIssue: 1
     commit: 446
   last360d:
     since: 2025-09-13
@@ -62,7 +62,7 @@ recent:
     mergedPR: 355
     openPR: 0
     closedIssue: 37
-    openIssue: 0
+    openIssue: 1
     commit: 1167
   last720d:
     since: 2024-09-18
@@ -70,18 +70,18 @@ recent:
     mergedPR: 355
     openPR: 0
     closedIssue: 37
-    openIssue: 0
+    openIssue: 1
     commit: 1371
 total:
   release: 210
   mergedPR: 355
   openPR: 0
   closedIssue: 37
-  openIssue: 0
+  openIssue: 1
   commit: 1371
 ---
 path: /home/runner/.x-repo/github.com/unkn0wn-root/resterm
-collectedAt: 2026-09-08T01:52:56Z
+collectedAt: 2026-09-08T04:37:50Z
 loc:
   Go:
     code: 240197
