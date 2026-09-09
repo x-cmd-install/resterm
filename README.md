@@ -4,10 +4,10 @@ Terminal API client for HTTP, GraphQL and gRPC. Plain .http files you can diff a
 
 - **Upstream**: <https://github.com/unkn0wn-root/resterm>
 - **Homepage**: <>
-- **Latest release**: `v1.6.0` (2026-09-06)
+- **Latest release**: `v1.7.2` (2026-09-08)
 - **Last commit**: 2026-09-08
 - **License**: Apache-2.0
-- **Stars**: 1914 · **Forks**: 53 · **Open issues**: 38 · **Contributors**: 3
+- **Stars**: 1916 · **Forks**: 53 · **Open issues**: 38 · **Contributors**: 3
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/resterm> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T10:39:29Z._
+_Last regenerated: 2026-09-09T04:39:17Z._
