@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 65145698,
       "digest": "sha256:4244cc691b9bc1eb67df64c70602d4cc744f756f05c602cef73e65e38d79be25",
-      "download_count": 2,
+      "download_count": 4,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:08Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Darwin_arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 68671408,
       "digest": "sha256:11415aec93bce6e28eee6e4145f5f9996ebcc6f2880f17672d91463e8e148f37",
-      "download_count": 1,
+      "download_count": 3,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:08Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Darwin_x86_64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 63242402,
       "digest": "sha256:ea8eb4b59dd4f965e9b38c6e0f05feb2ff271ce248c88769dc6763dde5173cff",
-      "download_count": 4,
+      "download_count": 7,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:08Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Linux_arm64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 67289353,
       "digest": "sha256:9d4b83ccbe19e972046892db6fe808081d1141adc065e1b6ef33a15f3e43dd20",
-      "download_count": 11,
+      "download_count": 42,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:08Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Linux_x86_64"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 87,
       "digest": "sha256:ec9b253dbbc7bb008e56d7dec9b1bea5c43510f5bcd82bc9fc7c11eff6b2a243",
-      "download_count": 1,
+      "download_count": 3,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:06Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Linux_x86_64.sha256"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 63825408,
       "digest": "sha256:e48680cdb903c1872034b32ed6c198956f030e29ac34d0c6ce33bc46236fef69",
-      "download_count": 7,
+      "download_count": 10,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:09Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_arm64.exe"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 92,
       "digest": "sha256:71f54b0ee4e36cbe4b530980b2c9680924c8c33cf4c93f1a76d842c17eff5f86",
-      "download_count": 19,
+      "download_count": 20,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:06Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_arm64.exe.sha256"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 68561408,
       "digest": "sha256:a145d0c11272dbec51e0d0fd7ab19dae0014fc8978b5b0ab1775037a66195541",
-      "download_count": 9,
+      "download_count": 32,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:09Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_x86_64.exe"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 93,
       "digest": "sha256:cbeb64cf2f94104f52274db1505e6db1290cb045766764018064dc0e764f9179",
-      "download_count": 19,
+      "download_count": 20,
       "created_at": "2026-09-08T21:53:06Z",
       "updated_at": "2026-09-08T21:53:07Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_x86_64.exe.sha256"
