@@ -4,7 +4,7 @@
 
 Terminal API client for HTTP, GraphQL and gRPC. Plain .http files you can diff and version, with workflows, mocks, profiling, tracing, OpenAPI import, SSH tunnels, Kubernetes port-forwards, WebSocket, SSE and a CLI runner.
 
-![resterm](https://repo.x-cmd.io/resterm.svg)
+![resterm](https://repo.x-cmd.io/resterm.svg?lang=zh)
 
 ## 安装
 
@@ -22,11 +22,27 @@ x install resterm
 - **最新版本**: `v1.7.2` (2026-09-08)
 - **最近提交**: 2026-09-09
 - **Release 含资产**: 12 个
-- **发布时间**: 2026-09-08T21:55:22Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Darwin_arm64) | 62.1 MiB | `native/darwin/arm64` |
+| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
+| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Darwin_x86_64) | 65.5 MiB | `native/darwin/x64` |
+| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
+| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Linux_arm64) | 60.3 MiB | `native/linux/arm64` |
+| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
+| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Linux_x86_64) | 64.2 MiB | `native/linux/x64` |
+| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
+| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_arm64.exe) | 60.9 MiB | `native/win/arm64` |
+| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
+| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_x86_64.exe) | 65.4 MiB | `native/win/x64` |
+| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
 
 ## 流行度
 
-- **Star**: 1,917 · **Fork**: 54 · **开放 issue**: 38 · **贡献者**: 3
+- **Star**: 1,918 · **Fork**: 54 · **开放 issue**: 38 · **贡献者**: 3
 
 ## 累计统计
 
@@ -61,4 +77,4 @@ resterm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:39:13Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:16:46Z._
