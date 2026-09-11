@@ -38,9 +38,9 @@
 - repo: nix_unstable
   srcname: resterm
   visiblename: resterm
-  version: 1.5.0
+  version: 1.7.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal-based REST client
   maintainers:
     - 2788892716@qq.com
