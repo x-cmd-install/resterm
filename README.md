@@ -47,12 +47,12 @@ Total: **245,370** lines of code across **1162** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 20 | 35 | 0 | 2 | 0 | 75 |
-| last60d | 2026-07-15 | 33 | 86 | 0 | 3 | 0 | 155 |
-| 90d | 2026-06-15 | 48 | 111 | 0 | 6 | 0 | 212 |
-| last180d | 2026-03-17 | 82 | 191 | 0 | 14 | 0 | 465 |
-| 360d | 2025-09-18 | 100 | 364 | 0 | 38 | 0 | 1186 |
-| last720d | 2024-09-23 | 100 | 364 | 0 | 38 | 0 | 1391 |
+| 30d | 2026-08-15 | 19 | 35 | 0 | 2 | 0 | 75 |
+| last60d | 2026-07-16 | 33 | 85 | 0 | 3 | 0 | 155 |
+| 90d | 2026-06-16 | 48 | 111 | 0 | 6 | 0 | 212 |
+| last180d | 2026-03-18 | 82 | 191 | 0 | 14 | 0 | 465 |
+| 360d | 2025-09-19 | 100 | 364 | 0 | 38 | 0 | 1186 |
+| last720d | 2024-09-24 | 100 | 364 | 0 | 38 | 0 | 1391 |
 
 ## Release assets
 
@@ -71,15 +71,6 @@ Total: **245,370** lines of code across **1162** files in the top 5 languages.
 | [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_x86_64.exe) | 65.4 MiB | `native/win/x64` |
 | [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.7.2/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
 
-## Distribution status
-
-Reported by **7** distros on [repology.org](https://repology.org/project/resterm). **5** are ✅ on the latest upstream release, **1** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `1.7.2` | ✅ latest |
-| Nix unstable | `1.7.2` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `resterm` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -89,4 +80,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:43:49Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T05:00:17Z._
