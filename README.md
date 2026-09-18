@@ -32,27 +32,27 @@ Total: **249,259** lines of code across **1190** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.8.1` (2026-09-16)
-- **Last commit**: 2026-09-16
+- **Last commit**: 2026-09-17
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 1,925 · **Forks**: 54 · **Open issues**: 38 · **Contributors**: 3
+- **Stars**: 1,926 · **Forks**: 54 · **Open issues**: 38 · **Contributors**: 3
 
 ## Totals (cumulative)
 
-- **Releases**: 214 · **Merged PRs**: 365 · **Open PRs**: 0 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1405
+- **Releases**: 214 · **Merged PRs**: 365 · **Open PRs**: 0 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1407
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 19 | 31 | 0 | 2 | 0 | 88 |
-| last60d | 2026-07-19 | 33 | 83 | 0 | 3 | 0 | 168 |
-| 90d | 2026-06-19 | 49 | 111 | 0 | 5 | 0 | 225 |
-| last180d | 2026-03-21 | 83 | 192 | 0 | 14 | 0 | 478 |
-| 360d | 2025-09-22 | 100 | 365 | 0 | 38 | 0 | 1199 |
-| last720d | 2024-09-27 | 100 | 365 | 0 | 38 | 0 | 1405 |
+| 30d | 2026-08-19 | 18 | 30 | 0 | 2 | 0 | 90 |
+| last60d | 2026-07-20 | 33 | 82 | 0 | 3 | 0 | 170 |
+| 90d | 2026-06-20 | 49 | 110 | 0 | 5 | 0 | 227 |
+| last180d | 2026-03-22 | 83 | 192 | 0 | 14 | 0 | 480 |
+| 360d | 2025-09-23 | 100 | 365 | 0 | 38 | 0 | 1201 |
+| last720d | 2024-09-28 | 100 | 365 | 0 | 38 | 0 | 1407 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260917.yml` · 2026-09-17T04:51:55Z._
+_Snapshot: `data/card/260918.yml` · 2026-09-18T04:52:05Z._
