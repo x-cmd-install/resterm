@@ -33,7 +33,7 @@
   "immutable": false,
   "prerelease": false,
   "created_at": "2026-09-16T08:19:45Z",
-  "updated_at": "2026-09-16T08:43:43Z",
+  "updated_at": "2026-09-17T06:35:44Z",
   "published_at": "2026-09-16T08:38:22Z",
   "assets": [
     {
@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 65463986,
       "digest": "sha256:3b9f6a200dbf8814a316cdebaf8b38c7ce147ef420f4424eec58927dc2021347",
-      "download_count": 6,
+      "download_count": 9,
       "created_at": "2026-09-16T08:26:11Z",
       "updated_at": "2026-09-16T08:26:13Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.8.1/resterm_Darwin_arm64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 67621129,
       "digest": "sha256:81de76686dd923f1054890c0b4d0dd15bf0b06dfc540657efee72384ea67a303",
-      "download_count": 24,
+      "download_count": 53,
       "created_at": "2026-09-16T08:26:11Z",
       "updated_at": "2026-09-16T08:26:13Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.8.1/resterm_Linux_x86_64"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 87,
       "digest": "sha256:ca86dfed4cd4b05ecfa9b57b6b0da7784e4f2d0ab7fff21211b7ea104f6c99bd",
-      "download_count": 1,
+      "download_count": 2,
       "created_at": "2026-09-16T08:26:11Z",
       "updated_at": "2026-09-16T08:26:12Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.8.1/resterm_Linux_x86_64.sha256"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 64128000,
       "digest": "sha256:ed69039d632b54c15b7c056f721f46a733f6aea175a071368c70f8d1026a2d34",
-      "download_count": 3,
+      "download_count": 6,
       "created_at": "2026-09-16T08:26:11Z",
       "updated_at": "2026-09-16T08:26:13Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.8.1/resterm_Windows_arm64.exe"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 92,
       "digest": "sha256:f3fc63ee9226e7e78bfb9b20e3871e55b19c4519def19083737ea1d5aeeda635",
-      "download_count": 19,
+      "download_count": 20,
       "created_at": "2026-09-16T08:26:11Z",
       "updated_at": "2026-09-16T08:26:11Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.8.1/resterm_Windows_arm64.exe.sha256"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 68894208,
       "digest": "sha256:14271eb900d039825961c936fdc1710f1e3630cf7f8cf89b2ac543ec202bb9e0",
-      "download_count": 22,
+      "download_count": 42,
       "created_at": "2026-09-16T08:26:11Z",
       "updated_at": "2026-09-16T08:26:14Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.8.1/resterm_Windows_x86_64.exe"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 93,
       "digest": "sha256:903c2071334232fc669553a12059eb25a8f4304200cd7ca4420a3cfa709071b5",
-      "download_count": 19,
+      "download_count": 20,
       "created_at": "2026-09-16T08:26:11Z",
       "updated_at": "2026-09-16T08:26:11Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.8.1/resterm_Windows_x86_64.exe.sha256"
@@ -471,5 +471,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/unkn0wn-root/resterm/tarball/v1.8.1",
   "zipball_url": "https://api.github.com/repos/unkn0wn-root/resterm/zipball/v1.8.1",
-  "body": "## v1.8.1\r\n\r\nThis release adds HTTP traffic recording. Point your application's API base URL at a local Resterm listener and use the application as usual. Resterm forwards the traffic to your API and saves it in a Resterm .http file as runnable requests, mock responses, or both.\r\n\r\n## Recording from the command line\r\n\r\n```sh\r\nresterm record --listen 127.0.0.1:9000 \\\r\n  --upstream https://api.example.com --out captured.http --mode both\r\n```\r\n\r\nChange your application's API base URL to `http://127.0.0.1:9000`, use the app, then press Ctrl+C.\r\n\r\n- `--upstream` and `--out` are required. `--listen` defaults to `127.0.0.1:9000`.\r\n- `--mode` accepts `requests` (default), `mocks`, or `both`.\r\n- The output file must be new and its parent directory must exist. Resterm will not overwrite an existing file.\r\n- Ctrl+C gives active requests up to 3 seconds to finish.\r\n- Exit status is 0 on success, 1 when a capture or export was skipped or recording failed, and 2 for bad arguments. HTTP error responses are recorded normally and do not change the exit status on their own.\r\n\r\n## What gets written\r\n\r\nA single POST recorded with `--mode both` produces this:\r\n\r\n```http\r\n# @var file recordedBaseUrl https://api.example.com\r\n\r\n### record-000001\r\n# @name record-000001\r\nPOST {{recordedBaseUrl}}/v1/orders?limit=20\r\nAuthorization: REDACTED\r\nContent-Type: application/json\r\n\r\n{\"item\":\"widget\",\"qty\":2}\r\n###\r\n### record-000001-mock\r\n# @mock method=POST path=/v1/orders name=record-000001-mock interpolate=false\r\n# @match query={\"limit\":\"20\"} json={\"item\":\"widget\",\"qty\":2}\r\nHTTP/1.1 201 Created\r\nContent-Type: application/json\r\n\r\n{\"id\":\"ord_88\",\"status\":\"created\"}\r\n###\r\n```\r\n\r\n## Recording inside the TUI\r\n\r\n```text\r\n:record start --upstream https://api.example.com\r\n:record list\r\n:record status\r\n:record stop\r\n:record as-request\r\n:record as-mock 1\r\n:record clear\r\n```\r\n\r\n- `:record list` opens the recorded traffic list. `j` / `k` scroll, `Esc` closes. Each row shows the capture ID, method, status, and URL, + the reason if a capture cannot be exported.\r\n- `:record as-request` and `:record as-mock` insert recordings into the current `.http` or `.rest` file. Without an ID they insert every completed recording. With an ID, such as `:record as-mock 1`, they insert that one.\r\n- The file must already have a path, and every insertion can be undone with `u`.\r\n- **Save the file after inserting.** Recordings count as exported only once the file is saved.\r\n- Recordings stay in memory when you switch files. `:record clear` discards a stopped session.\r\n- Resterm warns before you quit with recording active or captures unsaved. `:q!` discards them.\r\n\r\n`:help recording` opens the full reference offline.\r\n\r\n## Redaction\r\n\r\nSaved copies replace the values of known credential headers and known query, form, and JSON fields with `REDACTED`, and drop cookies entirely.\r\n\r\nField names are matched without case or separators, so `client_secret`, `clientSecret`, and `CLIENT-SECRET` all match. The built-in list covers names such as `authorization`, `token`, `accesstoken`, `refreshtoken`, `apikey`, `password`, `secret`, `clientsecret`, `session`, `signature`, and `code`.\r\n\r\nAdd your own names, repeating the flags as needed:\r\n\r\n```sh\r\nresterm record --upstream https://api.example.com --out captured.http \\\r\n  --redact-header X-Company-Key --redact-field privateCredential\r\n```\r\n\r\nTwo things to know:\r\n\r\n- **Free text and values under names Resterm does not recognize are left unchanged**, including tokens and passwords. I recommend to read a recording before you share it.\r\n- Traffic forwarded to the upstream keeps its original credentials. Redaction only affects the saved copy, so your app keeps working while you record.\r\n\r\n## Replaying captures as mocks\r\n\r\nSet `recordedBaseUrl` to your mock server address and run the file:\r\n\r\n```sh\r\n# Terminal 1: leave this running\r\nresterm mock captured.http --addr 127.0.0.1:9001\r\n\r\n# Terminal 2\r\nresterm run captured.http\r\n```\r\n\r\n- Mocks match on method, path, query values that were not redacted, and JSON body fields that were not redacted. Form and text bodies are not used for matching.\r\n- When several mocks match the same request, the first one wins. Send `X-Resterm-Mock: <scenario-name>` to pick a specific response.\r\n- Resterm does not invent assertions or response sequences. Add `@assert` and `@expect` yourself, then check them with `resterm run` and `resterm mock verify`.\r\n\r\n`_examples/recording.http` is a runnable walkthrough that records a local mock server and verifies the result.\r\n\r\n## What can and cannot be recorded\r\n\r\nSupported bodies are empty, JSON, URL-encoded forms, and UTF-8 text. Gzip is decoded in the saved copy only.\r\n\r\nNot exportable: binary bodies, multipart, other content encodings, malformed JSON, JSON with duplicate keys, oversized bodies, and bodies that were cut off. Resterm reports why a request or mock could not be exported. Other supported exports remain available, and forwarding continues.\r\n\r\nCONNECT tunnels and protocol upgrades are rejected. WebSocket, gRPC, and SSE recording are **not** currently supported.\r\n\r\nA body that would change meaning if written into a request file, for example one whose lines start with `#` or that contains `{{`, is saved next to the request file in a `resterm-record-*` directory. Keep that directory beside the file. Those bodies follow the same redaction rules and are read as literal data, without templates or includes.\r\n\r\n## Limits and network\r\n\r\nDefaults are 1,000 recordings in memory, 64 MiB each for stored recordings and shared capture buffers, 4 MiB per body before and after decoding, and 32 simultaneous captures. Change them with `--max-entries`, `--max-bytes`, `--body-limit`, and `--capture-concurrency`. Hitting a limit skips a capture or an export. Existing recordings are kept and forwarding continues.\r\n\r\nThe listener is plain HTTP. The upstream must be a single HTTP(S) origin such as `https://api.example.com`, with no credentials, path prefix, query, or fragment. TLS uses your system's trusted certificates, and proxy environment variables are ignored. Redirects, CORS headers, cookies, and response URLs are forwarded unchanged, so a redirect can send your app somewhere the recorder never sees.\r\n\r\n## Fixed\r\n\r\n- Keys handled by the stream console or the workflow view no longer also scroll the response pane underneath.\r\n- Scrolling the response pane now keeps stream tail-follow and the cursor position in sync."
+  "body": "## v1.8.1\r\n\r\n## Recording from the command line\r\n\r\n```sh\r\nresterm record --listen 127.0.0.1:9000 \\\r\n  --upstream https://api.example.com --out captured.http --mode both\r\n```\r\n\r\nChange your application's API base URL to `http://127.0.0.1:9000`, use the app, then press Ctrl+C.\r\n\r\n- `--upstream` and `--out` are required. `--listen` defaults to `127.0.0.1:9000`.\r\n- `--mode` accepts `requests` (default), `mocks`, or `both`.\r\n- The output file must be new and its parent directory must exist. Resterm will not overwrite an existing file.\r\n- Ctrl+C gives active requests up to 3 seconds to finish.\r\n- Exit status is 0 on success, 1 when a capture or export was skipped or recording failed, and 2 for bad arguments. HTTP error responses are recorded normally and do not change the exit status on their own.\r\n\r\n## What gets written\r\n\r\nA single POST recorded with `--mode both` produces this:\r\n\r\n```http\r\n# @var file recordedBaseUrl https://api.example.com\r\n\r\n### record-000001\r\n# @name record-000001\r\nPOST {{recordedBaseUrl}}/v1/orders?limit=20\r\nAuthorization: REDACTED\r\nContent-Type: application/json\r\n\r\n{\"item\":\"widget\",\"qty\":2}\r\n###\r\n### record-000001-mock\r\n# @mock method=POST path=/v1/orders name=record-000001-mock interpolate=false\r\n# @match query={\"limit\":\"20\"} json={\"item\":\"widget\",\"qty\":2}\r\nHTTP/1.1 201 Created\r\nContent-Type: application/json\r\n\r\n{\"id\":\"ord_88\",\"status\":\"created\"}\r\n###\r\n```\r\n\r\n## Recording inside the TUI\r\n\r\n```text\r\n:record start --upstream https://api.example.com\r\n:record list\r\n:record status\r\n:record stop\r\n:record as-request\r\n:record as-mock 1\r\n:record clear\r\n```\r\n\r\n- `:record list` opens the recorded traffic list. Each row shows the capture ID, method, status, and URL, + the reason if a capture cannot be exported.\r\n- `:record as-request` and `:record as-mock` insert recordings into the current `.http` or `.rest` file. Without an ID they insert every completed recording. With an ID, such as `:record as-mock 1`, they insert that one.\r\n- **Save the file after inserting.** Recordings count as exported only once the file is saved.\r\n- Recordings stay in memory when you switch files. `:record clear` discards a stopped session.\r\n\r\n`:help recording` opens the full reference offline.\r\n\r\n## Redaction\r\n\r\nSaved copies replace the values of known credential headers and known query, form, and JSON fields with `REDACTED`, and drop cookies entirely.\r\n\r\nField names are matched without case or separators, so `client_secret`, `clientSecret`, and `CLIENT-SECRET` all match. The built-in list covers names such as `authorization`, `token`, `accesstoken`, `refreshtoken`, `apikey`, `password`, `secret`, `clientsecret`, `session`, `signature`, and `code`.\r\n\r\nAdd your own names, repeating the flags as needed:\r\n\r\n```sh\r\nresterm record --upstream https://api.example.com --out captured.http \\\r\n  --redact-header X-Company-Key --redact-field privateCredential\r\n```\r\n\r\nTwo things to know:\r\n\r\n- **Free text and values under names Resterm does not recognize are left unchanged**, including tokens and passwords. I recommend to read a recording before you share it.\r\n- Traffic forwarded to the upstream keeps its original credentials. Redaction only affects the saved copy, so your app keeps working while you record.\r\n\r\n## Replaying captures as mocks\r\n\r\nSet `recordedBaseUrl` to your mock server address and run the file:\r\n\r\n```sh\r\n# Terminal 1: leave this running\r\nresterm mock captured.http --addr 127.0.0.1:9001\r\n\r\n# Terminal 2\r\nresterm run captured.http\r\n```\r\n\r\n- Mocks match on method, path, query values that were not redacted, and JSON body fields that were not redacted. Form and text bodies are not used for matching.\r\n- When several mocks match the same request, the first one wins. Send `X-Resterm-Mock: <scenario-name>` to pick a specific response.\r\n- Resterm does not add assertions or response sequences. Add `@assert` and `@expect` yourself, then check them with `resterm run` and `resterm mock verify`.\r\n\r\n`_examples/recording.http` is a runnable walkthrough that records a local mock server and verifies the result.\r\n\r\n## What can and cannot be recorded\r\n\r\nSupported bodies are empty, JSON, URL-encoded forms, and UTF-8 text. Gzip is decoded in the saved copy only.\r\n\r\nNot exportable: binary bodies, multipart, other content encodings, malformed JSON, JSON with duplicate keys, oversized bodies. Resterm reports why a request or mock could not be exported.\r\n\r\nCONNECT tunnels and protocol upgrades are rejected. WebSocket, gRPC, and SSE recording are **not** currently supported.\r\n\r\nA body that would collidate with resterm internals, for example one whose lines start with `#` or that contains `{{`, is saved next to the request file in a `resterm-record-*` directory. Those bodies follow the same redaction rules and are read as literal data, without templates or includes.\r\n\r\n## Limits and network\r\n\r\nDefaults are 1000 recordings in memory, 64 MiB each for stored recordings and shared capture buffers, 4 MiB per body before and after decoding, and 32 simultaneous captures. Change them with `--max-entries`, `--max-bytes`, `--body-limit`, and `--capture-concurrency`. Hitting a limit skips a capture or an export.\r\n\r\nThe listener is plain HTTP. The upstream must be a single HTTP(S) origin such as `https://api.example.com`, with no credentials, path prefix, query, or fragment. TLS uses your system's trusted certificates, and proxy environment variables are ignored. Redirects, CORS headers, cookies, and response URLs are forwarded unchanged, so a redirect can send your app somewhere the recorder never sees.\r\n\r\n## Fixed\r\n\r\n- Keys handled by the stream console or the workflow view no longer also scroll the response pane underneath.\r\n- Scrolling the response pane now keeps stream tail-follow and the cursor position in sync.",
+  "reactions": {
+    "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/389746189/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
