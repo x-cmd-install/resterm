@@ -14,11 +14,11 @@ x install resterm
 
 ## Code insight
 
-Total: **251,847** lines of code across **1211** files in the top 5 languages.
+Total: **253,150** lines of code across **1215** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 250,105 | 4,565 | 25,398 | 1199 |
+| Go | 251,408 | 4,583 | 25,490 | 1203 |
 | Yaml | 607 | 0 | 0 | 2 |
 | Toml | 488 | 12 | 168 | 3 |
 | Json | 310 | 0 | 0 | 5 |
@@ -32,27 +32,27 @@ Total: **251,847** lines of code across **1211** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.9.1` (2026-09-25)
-- **Last commit**: 2026-09-25
+- **Last commit**: 2026-09-27
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 1,952 · **Forks**: 54 · **Open issues**: 38 · **Contributors**: 3
+- **Stars**: 1,960 · **Forks**: 54 · **Open issues**: 38 · **Contributors**: 3
 
 ## Totals (cumulative)
 
-- **Releases**: 217 · **Merged PRs**: 372 · **Open PRs**: 1 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1426
+- **Releases**: 217 · **Merged PRs**: 373 · **Open PRs**: 1 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1427
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 14 | 28 | 1 | 1 | 0 | 60 |
-| last60d | 2026-07-29 | 34 | 82 | 1 | 3 | 0 | 159 |
-| 90d | 2026-06-29 | 47 | 108 | 1 | 4 | 0 | 216 |
-| last180d | 2026-03-31 | 86 | 199 | 1 | 14 | 0 | 486 |
-| 360d | 2025-10-02 | 100 | 367 | 1 | 38 | 0 | 1138 |
-| last720d | 2024-10-07 | 100 | 372 | 1 | 38 | 0 | 1426 |
+| 30d | 2026-08-29 | 14 | 27 | 1 | 1 | 0 | 61 |
+| last60d | 2026-07-30 | 34 | 80 | 1 | 3 | 0 | 160 |
+| 90d | 2026-06-30 | 46 | 109 | 1 | 4 | 0 | 217 |
+| last180d | 2026-04-01 | 86 | 200 | 1 | 14 | 0 | 487 |
+| 360d | 2025-10-03 | 100 | 367 | 1 | 38 | 0 | 1139 |
+| last720d | 2024-10-08 | 100 | 373 | 1 | 38 | 0 | 1427 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T05:15:56Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:21:52Z._
