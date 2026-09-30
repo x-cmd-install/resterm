@@ -14,62 +14,63 @@ x install resterm
 
 ## 代码洞察
 
-合计: **254,369** 行代码（覆盖前 5 种语言、共 **1217** 个文件）。
+合计: **264,081** 行代码（覆盖前 5 种语言、共 **1254** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 252,627 | 4,655 | 25,580 | 1205 |
+| Go | 253,217 | 4,666 | 25,611 | 1207 |
+| Json | 6,973 | 0 | 0 | 8 |
+| TypeScript | 1,954 | 62 | 210 | 34 |
 | Yaml | 607 | 0 | 0 | 2 |
-| Toml | 488 | 12 | 168 | 3 |
-| Json | 310 | 0 | 0 | 5 |
-| Sh | 163 | 4 | 39 | 2 |
+| Css | 494 | 7 | 79 | 3 |
 
 ## 源代码
 
 - **上游仓库**: <https://github.com/unkn0wn-root/resterm>
+- **官网**: <https://resterm.app>
 - **许可证**: Apache-2.0
 
 ## 发布
 
-- **最新版本**: `v1.10.1` (2026-09-28)
-- **最近提交**: 2026-09-28
+- **最新版本**: `v1.10.2` (2026-09-29)
+- **最近提交**: 2026-09-29
 - **Release 含资产**: 12 个
 
 ## 流行度
 
-- **Star**: 1,971 · **Fork**: 54 · **开放 issue**: 38 · **贡献者**: 3
+- **Star**: 1,975 · **Fork**: 54 · **开放 issue**: 38 · **贡献者**: 3
 
 ## 累计统计
 
-- **发布数**: 219 · **已合并 PR**: 376 · **开放 PR**: 1 · **已关闭 issue**: 38 · **开放 issue**: 0 · **提交数**: 1433
+- **发布数**: 220 · **已合并 PR**: 378 · **开放 PR**: 1 · **已关闭 issue**: 38 · **开放 issue**: 0 · **提交数**: 1442
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 15 | 30 | 1 | 1 | 0 | 67 |
-| last60d | 2026-07-31 | 35 | 81 | 1 | 3 | 0 | 166 |
-| 90d | 2026-07-01 | 48 | 111 | 1 | 4 | 0 | 223 |
-| last180d | 2026-04-02 | 88 | 202 | 1 | 14 | 0 | 493 |
-| 360d | 2025-10-04 | 100 | 365 | 1 | 38 | 0 | 1145 |
-| last720d | 2024-10-09 | 100 | 376 | 1 | 38 | 0 | 1433 |
+| 30d | 2026-08-31 | 16 | 31 | 1 | 1 | 0 | 76 |
+| last60d | 2026-08-01 | 35 | 79 | 1 | 3 | 0 | 175 |
+| 90d | 2026-07-02 | 48 | 113 | 1 | 4 | 0 | 232 |
+| last180d | 2026-04-03 | 88 | 203 | 1 | 14 | 0 | 502 |
+| 360d | 2025-10-05 | 100 | 367 | 1 | 38 | 0 | 1154 |
+| last720d | 2024-10-10 | 100 | 378 | 1 | 38 | 0 | 1442 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Darwin_arm64) | 62.7 MiB | `native/darwin/arm64` |
-| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
-| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Darwin_x86_64) | 66.1 MiB | `native/darwin/x64` |
-| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
-| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Linux_arm64) | 60.9 MiB | `native/linux/arm64` |
-| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
-| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Linux_x86_64) | 64.8 MiB | `native/linux/x64` |
-| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
-| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Windows_arm64.exe) | 61.5 MiB | `native/win/arm64` |
-| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
-| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Windows_x86_64.exe) | 66.0 MiB | `native/win/x64` |
-| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
+| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_arm64) | 62.8 MiB | `native/darwin/arm64` |
+| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
+| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_x86_64) | 66.2 MiB | `native/darwin/x64` |
+| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
+| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_arm64) | 60.9 MiB | `native/linux/arm64` |
+| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
+| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_x86_64) | 64.9 MiB | `native/linux/x64` |
+| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
+| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_arm64.exe) | 61.5 MiB | `native/win/arm64` |
+| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
+| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_x86_64.exe) | 66.1 MiB | `native/win/x64` |
+| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
 
 ## 改进这些数据
 
@@ -80,4 +81,4 @@ resterm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260929.yml` · 2026-09-29T05:41:27Z._
+_数据快照: `data/card/260930.yml` · 2026-09-30T05:35:03Z._

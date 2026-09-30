@@ -14,62 +14,63 @@ x install resterm
 
 ## Code insight
 
-Total: **254,369** lines of code across **1217** files in the top 5 languages.
+Total: **264,081** lines of code across **1254** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 252,627 | 4,655 | 25,580 | 1205 |
+| Go | 253,217 | 4,666 | 25,611 | 1207 |
+| Json | 6,973 | 0 | 0 | 8 |
+| TypeScript | 1,954 | 62 | 210 | 34 |
 | Yaml | 607 | 0 | 0 | 2 |
-| Toml | 488 | 12 | 168 | 3 |
-| Json | 310 | 0 | 0 | 5 |
-| Sh | 163 | 4 | 39 | 2 |
+| Css | 494 | 7 | 79 | 3 |
 
 ## Source
 
 - **Upstream**: <https://github.com/unkn0wn-root/resterm>
+- **Homepage**: <https://resterm.app>
 - **License**: Apache-2.0
 
 ## Release
 
-- **Latest**: `v1.10.1` (2026-09-28)
-- **Last commit**: 2026-09-28
+- **Latest**: `v1.10.2` (2026-09-29)
+- **Last commit**: 2026-09-29
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 1,971 · **Forks**: 54 · **Open issues**: 38 · **Contributors**: 3
+- **Stars**: 1,975 · **Forks**: 54 · **Open issues**: 38 · **Contributors**: 3
 
 ## Totals (cumulative)
 
-- **Releases**: 219 · **Merged PRs**: 376 · **Open PRs**: 1 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1433
+- **Releases**: 220 · **Merged PRs**: 378 · **Open PRs**: 1 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1442
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 15 | 30 | 1 | 1 | 0 | 67 |
-| last60d | 2026-07-31 | 35 | 81 | 1 | 3 | 0 | 166 |
-| 90d | 2026-07-01 | 48 | 111 | 1 | 4 | 0 | 223 |
-| last180d | 2026-04-02 | 88 | 202 | 1 | 14 | 0 | 493 |
-| 360d | 2025-10-04 | 100 | 365 | 1 | 38 | 0 | 1145 |
-| last720d | 2024-10-09 | 100 | 376 | 1 | 38 | 0 | 1433 |
+| 30d | 2026-08-31 | 16 | 31 | 1 | 1 | 0 | 76 |
+| last60d | 2026-08-01 | 35 | 79 | 1 | 3 | 0 | 175 |
+| 90d | 2026-07-02 | 48 | 113 | 1 | 4 | 0 | 232 |
+| last180d | 2026-04-03 | 88 | 203 | 1 | 14 | 0 | 502 |
+| 360d | 2025-10-05 | 100 | 367 | 1 | 38 | 0 | 1154 |
+| last720d | 2024-10-10 | 100 | 378 | 1 | 38 | 0 | 1442 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Darwin_arm64) | 62.7 MiB | `native/darwin/arm64` |
-| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
-| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Darwin_x86_64) | 66.1 MiB | `native/darwin/x64` |
-| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
-| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Linux_arm64) | 60.9 MiB | `native/linux/arm64` |
-| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
-| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Linux_x86_64) | 64.8 MiB | `native/linux/x64` |
-| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
-| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Windows_arm64.exe) | 61.5 MiB | `native/win/arm64` |
-| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
-| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Windows_x86_64.exe) | 66.0 MiB | `native/win/x64` |
-| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.1/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
+| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_arm64) | 62.8 MiB | `native/darwin/arm64` |
+| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
+| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_x86_64) | 66.2 MiB | `native/darwin/x64` |
+| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
+| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_arm64) | 60.9 MiB | `native/linux/arm64` |
+| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
+| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_x86_64) | 64.9 MiB | `native/linux/x64` |
+| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
+| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_arm64.exe) | 61.5 MiB | `native/win/arm64` |
+| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
+| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_x86_64.exe) | 66.1 MiB | `native/win/x64` |
+| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
 
 ## Improve this data
 
@@ -80,4 +81,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T05:41:26Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T05:35:03Z._
