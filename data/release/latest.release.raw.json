@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/399015909",
-  "assets_url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/399015909/assets",
-  "upload_url": "https://uploads.github.com/repos/unkn0wn-root/resterm/releases/399015909/assets{?name,label}",
-  "html_url": "https://github.com/unkn0wn-root/resterm/releases/tag/v1.10.2",
-  "id": 399015909,
+  "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/400729816",
+  "assets_url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/400729816/assets",
+  "upload_url": "https://uploads.github.com/repos/unkn0wn-root/resterm/releases/400729816/assets{?name,label}",
+  "html_url": "https://github.com/unkn0wn-root/resterm/releases/tag/v1.10.3",
+  "id": 400729816,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOP5rK3s4XyH_l",
-  "tag_name": "v1.10.2",
+  "node_id": "RE_kwDOP5rK3s4X4qbY",
+  "tag_name": "v1.10.3",
   "target_commitish": "main",
-  "name": "v1.10.2",
+  "name": "v1.10.3",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-29T09:50:07Z",
-  "updated_at": "2026-09-29T12:50:01Z",
-  "published_at": "2026-09-29T10:17:54Z",
+  "created_at": "2026-10-01T07:14:38Z",
+  "updated_at": "2026-10-01T07:24:52Z",
+  "published_at": "2026-10-01T07:24:52Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869497",
-      "id": 597869497,
-      "node_id": "RA_kwDOP5rK3s4josO5",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688431",
+      "id": 602688431,
+      "node_id": "RA_kwDOP5rK3s4j7Euv",
       "name": "resterm_Darwin_arm64",
       "label": "",
       "uploader": {
@@ -65,17 +65,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 65817698,
-      "digest": "sha256:faa878554eaf20f1c8142484a7374b0730002b12dfb4f3813deef851542687e9",
-      "download_count": 11,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:43Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_arm64"
+      "size": 65801314,
+      "digest": "sha256:f7170a4bd087119985f7685ccffa3f193a445ccb2e59c4292598a809903ebded",
+      "download_count": 4,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:07Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Darwin_arm64"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869495",
-      "id": 597869495,
-      "node_id": "RA_kwDOP5rK3s4josO3",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688435",
+      "id": 602688435,
+      "node_id": "RA_kwDOP5rK3s4j7Euz",
       "name": "resterm_Darwin_arm64.sha256",
       "label": "",
       "uploader": {
@@ -102,16 +102,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 87,
-      "digest": "sha256:f87bc9fa26ef458acba003721952788cafbc8d4e6ae7fe0a4a10efadb0e1438f",
-      "download_count": 1,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:40Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_arm64.sha256"
+      "digest": "sha256:0f40a61b8b773424858db8122fc783a0156218df5e89a7190143bdf9ba638712",
+      "download_count": 0,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:05Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Darwin_arm64.sha256"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869494",
-      "id": 597869494,
-      "node_id": "RA_kwDOP5rK3s4josO2",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688426",
+      "id": 602688426,
+      "node_id": "RA_kwDOP5rK3s4j7Euq",
       "name": "resterm_Darwin_x86_64",
       "label": "",
       "uploader": {
@@ -137,17 +137,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 69395328,
-      "digest": "sha256:52e0453d3acadfc6408c6d880c50513d5f09579e6887e4f2dd7af163bca9bbee",
-      "download_count": 6,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:43Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_x86_64"
+      "size": 69379072,
+      "digest": "sha256:ed09573a21393c11af71ae50aaa6e3437a6bfa60cebc00e150372725e86e250d",
+      "download_count": 2,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:07Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Darwin_x86_64"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869496",
-      "id": 597869496,
-      "node_id": "RA_kwDOP5rK3s4josO4",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688423",
+      "id": 602688423,
+      "node_id": "RA_kwDOP5rK3s4j7Eun",
       "name": "resterm_Darwin_x86_64.sha256",
       "label": "",
       "uploader": {
@@ -174,16 +174,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 88,
-      "digest": "sha256:94d4984d67ef32f020bbf4f5be3b6ff28ad3ea2d548f3457dc6721f3bc0da8a1",
-      "download_count": 1,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:40Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Darwin_x86_64.sha256"
+      "digest": "sha256:a819266f92278d70e7cc926d73478f6e50faaf459f8c579e2f96fed21913e6ab",
+      "download_count": 0,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:05Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Darwin_x86_64.sha256"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869490",
-      "id": 597869490,
-      "node_id": "RA_kwDOP5rK3s4josOy",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688427",
+      "id": 602688427,
+      "node_id": "RA_kwDOP5rK3s4j7Eur",
       "name": "resterm_Linux_arm64",
       "label": "",
       "uploader": {
@@ -210,16 +210,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 63832226,
-      "digest": "sha256:10dcff370e86f57f24a11301aa225b7e24b97efffc253e36dad6894c400e873d",
-      "download_count": 8,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:43Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_arm64"
+      "digest": "sha256:a0e00cfe93efd0bca8e3a61b12d4029ad8d1c5e63f29985572dfac01fc2edf0d",
+      "download_count": 6,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:07Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Linux_arm64"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869492",
-      "id": 597869492,
-      "node_id": "RA_kwDOP5rK3s4josO0",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688424",
+      "id": 602688424,
+      "node_id": "RA_kwDOP5rK3s4j7Euo",
       "name": "resterm_Linux_arm64.sha256",
       "label": "",
       "uploader": {
@@ -246,16 +246,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 86,
-      "digest": "sha256:877adf36facef8e0c494b5e52e6fa0e1717736780b5e00fb59fe700f20d19e7a",
-      "download_count": 1,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:40Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_arm64.sha256"
+      "digest": "sha256:384be28b18f4433c1c1ba06b55ed173ca5b68d75a7de02a2617e16c23f1ef069",
+      "download_count": 0,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:05Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Linux_arm64.sha256"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869488",
-      "id": 597869488,
-      "node_id": "RA_kwDOP5rK3s4josOw",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688428",
+      "id": 602688428,
+      "node_id": "RA_kwDOP5rK3s4j7Eus",
       "name": "resterm_Linux_x86_64",
       "label": "",
       "uploader": {
@@ -281,17 +281,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 68002057,
-      "digest": "sha256:572b2dd46c31d34e8a525c34563b58b91a94bb27f2fddc0b49e6c118cf380417",
-      "download_count": 65,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:43Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_x86_64"
+      "size": 67985673,
+      "digest": "sha256:baab2c00ce3a9913b856c3a4619f8f1ec91a51072022b09aea2a719d1cc95944",
+      "download_count": 44,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:07Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Linux_x86_64"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869484",
-      "id": 597869484,
-      "node_id": "RA_kwDOP5rK3s4josOs",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688436",
+      "id": 602688436,
+      "node_id": "RA_kwDOP5rK3s4j7Eu0",
       "name": "resterm_Linux_x86_64.sha256",
       "label": "",
       "uploader": {
@@ -318,16 +318,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 87,
-      "digest": "sha256:9995950f0d9413dc9b08a2ecaa7d7e98d2d3ddbcce99a869e797ff8b1d14df1b",
-      "download_count": 2,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:40Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Linux_x86_64.sha256"
+      "digest": "sha256:d69362ae44839e03b4d804672951382f6bf21b27ded0ba74ddf8299f12db6a8e",
+      "download_count": 0,
+      "created_at": "2026-10-01T07:21:05Z",
+      "updated_at": "2026-10-01T07:21:05Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Linux_x86_64.sha256"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869489",
-      "id": 597869489,
-      "node_id": "RA_kwDOP5rK3s4josOx",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688430",
+      "id": 602688430,
+      "node_id": "RA_kwDOP5rK3s4j7Euu",
       "name": "resterm_Windows_arm64.exe",
       "label": "",
       "uploader": {
@@ -353,17 +353,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 64483840,
-      "digest": "sha256:97f4e7aa4c20d28f99b3e45c57143a254fa695568d8fa60cb0240ca2d8b90cd0",
-      "download_count": 9,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:43Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_arm64.exe"
+      "size": 64468992,
+      "digest": "sha256:ba010314d92de7bfeb59276e56af9bb51cb3d152ceda8afc3d5caf28d9e30d12",
+      "download_count": 4,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:07Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Windows_arm64.exe"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869486",
-      "id": 597869486,
-      "node_id": "RA_kwDOP5rK3s4josOu",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688429",
+      "id": 602688429,
+      "node_id": "RA_kwDOP5rK3s4j7Eut",
       "name": "resterm_Windows_arm64.exe.sha256",
       "label": "",
       "uploader": {
@@ -390,16 +390,16 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 92,
-      "digest": "sha256:32085232ff7b681702a8348376520780c5328c0033520e067b2a97f42ccf1ca6",
-      "download_count": 19,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:40Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_arm64.exe.sha256"
+      "digest": "sha256:5fa6ff5e8a71938e992ca0b31268200a7f3d37be940642205a2c52e06eefbe02",
+      "download_count": 21,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:05Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Windows_arm64.exe.sha256"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869503",
-      "id": 597869503,
-      "node_id": "RA_kwDOP5rK3s4josO_",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688433",
+      "id": 602688433,
+      "node_id": "RA_kwDOP5rK3s4j7Eux",
       "name": "resterm_Windows_x86_64.exe",
       "label": "",
       "uploader": {
@@ -425,17 +425,17 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 69281280,
-      "digest": "sha256:e7a7be9536f127f799ec9f4914942c2a5866b7447759f854d6e1a9bac57d351f",
-      "download_count": 44,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:43Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_x86_64.exe"
+      "size": 69265408,
+      "digest": "sha256:8e30f0077cf1f70b783f28ec972b7f64b9d8780015cd01a17e0cb53581c0c9f1",
+      "download_count": 26,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:07Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Windows_x86_64.exe"
     },
     {
-      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/597869498",
-      "id": 597869498,
-      "node_id": "RA_kwDOP5rK3s4josO6",
+      "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/assets/602688425",
+      "id": 602688425,
+      "node_id": "RA_kwDOP5rK3s4j7Eup",
       "name": "resterm_Windows_x86_64.exe.sha256",
       "label": "",
       "uploader": {
@@ -462,14 +462,14 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 93,
-      "digest": "sha256:2c2280fb4f8fd6fe2d29772c67201c0814d41fe1971c852b4a28c0900e5f5742",
-      "download_count": 19,
-      "created_at": "2026-09-29T09:57:40Z",
-      "updated_at": "2026-09-29T09:57:40Z",
-      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.2/resterm_Windows_x86_64.exe.sha256"
+      "digest": "sha256:d671bf07d677e572361b482390731daaed4fc2750b549b142f016f33c231b9b2",
+      "download_count": 21,
+      "created_at": "2026-10-01T07:21:04Z",
+      "updated_at": "2026-10-01T07:21:05Z",
+      "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.10.3/resterm_Windows_x86_64.exe.sha256"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/unkn0wn-root/resterm/tarball/v1.10.2",
-  "zipball_url": "https://api.github.com/repos/unkn0wn-root/resterm/zipball/v1.10.2",
-  "body": "## v1.10.2\r\n\r\nResterm now picks the file type itself and opens only reconized types.\r\n\r\n## If you are on 1.9.x\r\n\r\n- [1.10.0](https://github.com/unkn0wn-root/resterm/releases/tag/v1.10.0) adds `cmd=` for command auth and named command auth with `use=`. Options with spaces around `=` and unknown `@auth command` options are now errors. The Headers tab has a one-line summary and shows each repeated header on its own line.\r\n- [1.10.1](https://github.com/unkn0wn-root/resterm/releases/tag/v1.10.1) names a command auth definition with `name=`, as in `# @auth global command name=gh cmd=\"gh auth token\"`. A plain word after `command` is now an error, because in 1.10.0 it could turn off auth without an error.\r\n\r\n## Open in external app\r\n\r\nIn previous versions, the extension came from the file name the server sent or the URL. A body sent with `filename=\"setup.exe\"` was written as `resterm-2849.exe` and handed to the default app. On Windows, this could e.g., run a program sent by the server. HTML and SVG bodies opened in the browser, where their scripts could run.\r\n\r\nNow the extension always comes from the type. This body opens as `invoice.pdf`:\r\n\r\n```text\r\nContent-Type: application/pdf\r\nContent-Disposition: attachment; filename=\"invoice.exe\"\r\n```\r\n\r\n- Resterm finds the type from the `Content-Type` header, then the file name the server sent, then the body itself.\r\n- Only these types open: images, PDF, plain text, JSON, YAML, CSV, audio, video, zip and gzip archives, and Office files without macros (`.docx`, `.xlsx`, `.pptx`).\r\n- HTML, SVG, XML, and Markdown open as `.txt`, so scripts inside them cannot run.\r\n- When a type is not known, nothing opens and the status bar shows `Can't pick a safe app for this body. Save it with g Shift+S.`\r\n\r\nOpened files:\r\n\r\n- Files keep the server's name, so the TUI shows `invoice.pdf` instead of `resterm-2849.pdf`.\r\n- Files go to a private temp folder that Resterm deletes when it exits. In 1.10.1, they stayed in the system temp folder.\r\n- Resterm waits for the opener, so it no longer leaves any processes behind. If the opener fails right away, the status bar shows the error and points to `g Shift+S` (save to file).\r\n- The response command bar shows `Open` next to `Save` on the Pretty and Raw tabs.\r\n\r\n## Save names\r\n\r\nThe name suggested by `g Shift+S` also changed:\r\n\r\n- Common types get their usual extension. `audio/mpeg` saves as `.mp3`, and `+json` and `+xml` types such as `application/problem+json` save as `.json` and `.xml`.\r\n- A name that Windows treats as a device, such as `CON`, `AUX`, `NUL`, or `COM1`, gets a `_` prefix. `CON.pdf` saves as `_CON.pdf`. Opened files get the same prefix.\r\n\r\n## Changed\r\n\r\n- `g Shift+E` no longer opens executables, e.g., Office files that can hold macros (`.doc`, `.xls`, `.ppt`), or bodies with no known type. Save them with `g Shift+S` and open yourself.\r\n"
+  "tarball_url": "https://api.github.com/repos/unkn0wn-root/resterm/tarball/v1.10.3",
+  "zipball_url": "https://api.github.com/repos/unkn0wn-root/resterm/zipball/v1.10.3",
+  "body": "## v1.10.3\r\n\r\nThis patch moves the docs to [resterm.app](https://resterm.app). `:docs` and the `o` key in a help topic now open pages on the site instead of `docs/resterm.md` on GitHub.\r\n\r\n## If you are on 1.10.1 or older\r\n\r\n- [1.10.0](https://github.com/unkn0wn-root/resterm/releases/tag/v1.10.0) adds `cmd=` for command auth and named command auth with `use=`. Options with spaces around `=` and unknown `@auth command` options are now errors. The Headers tab has a one line summary and shows each repeated header on its own line.\r\n- [1.10.1](https://github.com/unkn0wn-root/resterm/releases/tag/v1.10.1) names a command auth definition with `name=`, as in `# @auth global command name=gh cmd=\"gh auth token\"`. A plain word after `command` is now an error, because in 1.10.0 it could turn off auth without an error.\r\n- [1.10.2](https://github.com/unkn0wn-root/resterm/releases/tag/v1.10.2) picks the file type for `g Shift+E` from the type, not the file name the server sent. Only known types open, and HTML, SVG, XML, and Markdown open as `.txt`.\r\n\r\n## Docs on resterm.app\r\n\r\n`:docs` opens the docs home. `:docs <topic>` opens the page for that topic:\r\n\r\n```text\r\n:docs             https://resterm.app/docs/\r\n:docs auth        https://resterm.app/docs/authentication/\r\n:docs commands    https://resterm.app/docs/ui-tour/#core-shortcuts\r\n```\r\n\r\n- The `o` key on a `:help` topic opens the same page.\r\n- Each topic has its own page. In 1.10.2, most topics opened a heading in the single `docs/resterm.md` file on GitHub.\r\n- `RESTERM.md` from `resterm init` links to `https://resterm.app/docs/`.\r\n\r\n## Changed\r\n\r\n- Docs links no longer match the build version. In 1.10.2, a release build opened the docs at its own tag, e.g., `blob/v1.10.2/docs resterm.md`. The site always shows the docs for the latest release."
 }
