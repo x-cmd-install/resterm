@@ -14,11 +14,11 @@ x install resterm
 
 ## 代码洞察
 
-合计: **266,548** 行代码（覆盖前 5 种语言、共 **1262** 个文件）。
+合计: **267,823** 行代码（覆盖前 5 种语言、共 **1270** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 256,078 | 4,793 | 25,828 | 1217 |
+| Go | 257,353 | 4,928 | 25,903 | 1225 |
 | Json | 6,976 | 0 | 0 | 8 |
 | TypeScript | 1,550 | 45 | 198 | 32 |
 | Yaml | 607 | 0 | 0 | 2 |
@@ -32,8 +32,8 @@ x install resterm
 
 ## 发布
 
-- **最新版本**: `v1.11.0` (2026-10-02)
-- **最近提交**: 2026-10-03
+- **最新版本**: `v1.12.0` (2026-10-04)
+- **最近提交**: 2026-10-04
 - **Release 含资产**: 12 个
 
 ## 流行度
@@ -42,35 +42,35 @@ x install resterm
 
 ## 累计统计
 
-- **发布数**: 222 · **已合并 PR**: 389 · **开放 PR**: 1 · **已关闭 issue**: 38 · **开放 issue**: 0 · **提交数**: 1486
+- **发布数**: 223 · **已合并 PR**: 390 · **开放 PR**: 1 · **已关闭 issue**: 38 · **开放 issue**: 0 · **提交数**: 1494
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 14 | 36 | 1 | 1 | 0 | 86 |
-| last60d | 2026-08-05 | 34 | 79 | 1 | 3 | 0 | 196 |
-| 90d | 2026-07-06 | 49 | 121 | 1 | 4 | 0 | 253 |
-| last180d | 2026-04-07 | 88 | 211 | 1 | 12 | 0 | 506 |
-| 360d | 2025-10-09 | 100 | 359 | 1 | 38 | 0 | 1130 |
-| last720d | 2024-10-14 | 100 | 389 | 1 | 38 | 0 | 1486 |
+| 30d | 2026-09-05 | 14 | 36 | 1 | 1 | 0 | 94 |
+| last60d | 2026-08-06 | 33 | 77 | 1 | 3 | 0 | 204 |
+| 90d | 2026-07-07 | 49 | 119 | 1 | 3 | 0 | 261 |
+| last180d | 2026-04-08 | 89 | 207 | 1 | 12 | 0 | 514 |
+| 360d | 2025-10-10 | 100 | 352 | 1 | 38 | 0 | 1138 |
+| last720d | 2024-10-15 | 100 | 390 | 1 | 38 | 0 | 1494 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Darwin_arm64) | 62.8 MiB | `native/darwin/arm64` |
-| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
-| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Darwin_x86_64) | 66.2 MiB | `native/darwin/x64` |
-| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
-| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Linux_arm64) | 60.9 MiB | `native/linux/arm64` |
-| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
-| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Linux_x86_64) | 64.9 MiB | `native/linux/x64` |
-| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
-| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Windows_arm64.exe) | 61.5 MiB | `native/win/arm64` |
-| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
-| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Windows_x86_64.exe) | 66.1 MiB | `native/win/x64` |
-| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.11.0/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
+| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Darwin_arm64) | 62.9 MiB | `native/darwin/arm64` |
+| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
+| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Darwin_x86_64) | 66.3 MiB | `native/darwin/x64` |
+| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
+| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Linux_arm64) | 61.0 MiB | `native/linux/arm64` |
+| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
+| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Linux_x86_64) | 65.0 MiB | `native/linux/x64` |
+| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
+| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Windows_arm64.exe) | 61.6 MiB | `native/win/arm64` |
+| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
+| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Windows_x86_64.exe) | 66.2 MiB | `native/win/x64` |
+| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.12.0/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
 
 ## 改进这些数据
 
@@ -81,4 +81,4 @@ resterm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261004.yml` · 2026-10-04T05:54:36Z._
+_数据快照: `data/card/261005.yml` · 2026-10-05T05:40:50Z._
