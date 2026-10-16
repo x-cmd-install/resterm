@@ -14,11 +14,11 @@ x install resterm
 
 ## Code insight
 
-Total: **274,198** lines of code across **1306** files in the top 5 languages.
+Total: **277,234** lines of code across **1312** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 263,210 | 5,127 | 26,304 | 1248 |
+| Go | 266,246 | 5,144 | 26,432 | 1254 |
 | Json | 7,081 | 0 | 0 | 18 |
 | TypeScript | 1,962 | 58 | 250 | 35 |
 | Yaml | 607 | 0 | 0 | 2 |
@@ -33,7 +33,7 @@ Total: **274,198** lines of code across **1306** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.14.1` (2026-10-12)
-- **Last commit**: 2026-10-14
+- **Last commit**: 2026-10-15
 - **Assets in release**: 12
 
 ## Popularity
@@ -42,18 +42,18 @@ Total: **274,198** lines of code across **1306** files in the top 5 languages.
 
 ## Totals (cumulative)
 
-- **Releases**: 229 · **Merged PRs**: 418 · **Open PRs**: 0 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1593
+- **Releases**: 229 · **Merged PRs**: 419 · **Open PRs**: 0 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1637
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 16 | 54 | 0 | 0 | 0 | 173 |
-| last60d | 2026-08-16 | 35 | 88 | 0 | 2 | 0 | 265 |
-| 90d | 2026-07-17 | 49 | 138 | 0 | 3 | 0 | 347 |
-| last180d | 2026-04-18 | 89 | 219 | 0 | 11 | 0 | 540 |
-| 360d | 2025-10-20 | 100 | 357 | 0 | 37 | 0 | 1181 |
-| last720d | 2024-10-25 | 100 | 418 | 0 | 38 | 0 | 1593 |
+| 30d | 2026-09-16 | 16 | 54 | 0 | 0 | 0 | 216 |
+| last60d | 2026-08-17 | 35 | 89 | 0 | 2 | 0 | 308 |
+| 90d | 2026-07-18 | 49 | 137 | 0 | 3 | 0 | 390 |
+| last180d | 2026-04-19 | 89 | 219 | 0 | 11 | 0 | 583 |
+| 360d | 2025-10-21 | 100 | 357 | 0 | 37 | 0 | 1224 |
+| last720d | 2024-10-26 | 100 | 419 | 0 | 38 | 0 | 1637 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261015.yml` · 2026-10-15T04:31:00Z._
+_Snapshot: `data/card/261016.yml` · 2026-10-16T04:26:22Z._
