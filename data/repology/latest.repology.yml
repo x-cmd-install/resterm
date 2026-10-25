@@ -1,3 +1,26 @@
+- repo: nix_stable_26_05
+  srcname: resterm
+  visiblename: resterm
+  version: 0.39.5
+  origversion: null
+  status: outdated
+  summary: Terminal-based REST client
+  maintainers:
+    - 2788892716@qq.com
+  licenses:
+    - Apache-2.0
+- repo: aur
+  srcname: resterm-bin
+  binname: resterm-bin
+  visiblename: resterm-bin
+  version: 1.16.1
+  origversion: 1.16.1-1
+  status: newest
+  summary: Terminal REST client for .http/.rest files with HTTP, GraphQL and gRPC support
+  maintainers:
+    - dominiquini@aur
+  licenses:
+    - Apache-2.0
 - repo: homebrew
   srcname: resterm
   visiblename: resterm
@@ -12,35 +35,12 @@
   origversion: null
   status: rolling
   summary: Terminal client for .http/.rest files with HTTP, GraphQL, and gRPC support
-- repo: aur
-  srcname: resterm-bin
-  binname: resterm-bin
-  visiblename: resterm-bin
-  version: 1.16.1
-  origversion: 1.16.1-1
-  status: newest
-  summary: Terminal REST client for .http/.rest files with HTTP, GraphQL and gRPC support
-  maintainers:
-    - dominiquini@aur
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_26_05
-  srcname: resterm
-  visiblename: resterm
-  version: 0.39.5
-  origversion: null
-  status: outdated
-  summary: Terminal-based REST client
-  maintainers:
-    - 2788892716@qq.com
-  licenses:
-    - Apache-2.0
 - repo: nix_unstable
   srcname: resterm
   visiblename: resterm
-  version: 1.14.0
+  version: 1.16.1
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal-based REST client
   maintainers:
     - 2788892716@qq.com

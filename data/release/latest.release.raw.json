@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 63385714,
       "digest": "sha256:eba34315310ecfb994f90265a0aa6180460daa9748f2a8d8d2998656f313b982",
-      "download_count": 11,
+      "download_count": 16,
       "created_at": "2026-10-22T08:15:07Z",
       "updated_at": "2026-10-22T08:15:10Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.16.1/resterm_Darwin_arm64"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 67121632,
       "digest": "sha256:b14303e93ce20e24c121f057ef4fc3c42e54505d238eec26f29b3e5059d9a4fd",
-      "download_count": 7,
+      "download_count": 9,
       "created_at": "2026-10-22T08:15:07Z",
       "updated_at": "2026-10-22T08:15:10Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.16.1/resterm_Darwin_x86_64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 61538464,
       "digest": "sha256:a4a5655cf87c5c3e7c737c947633b5ebd43ee1bf431be0710474ce606f6983d8",
-      "download_count": 12,
+      "download_count": 14,
       "created_at": "2026-10-22T08:15:07Z",
       "updated_at": "2026-10-22T08:15:10Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.16.1/resterm_Linux_arm64"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 65782023,
       "digest": "sha256:bd59e69500ffb68e74bdeff67de59099e987c0b82465097d3ad3bbb41b6e34ea",
-      "download_count": 64,
+      "download_count": 89,
       "created_at": "2026-10-22T08:15:07Z",
       "updated_at": "2026-10-22T08:15:10Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.16.1/resterm_Linux_x86_64"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 87,
       "digest": "sha256:0ce936db9d133e97217a102f851e7a9d2c30663a6025d621f91c8b6f4aec474b",
-      "download_count": 2,
+      "download_count": 3,
       "created_at": "2026-10-22T08:15:07Z",
       "updated_at": "2026-10-22T08:15:08Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.16.1/resterm_Linux_x86_64.sha256"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 62074368,
       "digest": "sha256:9c76db6d022febb8d969105e0e663bd0d9133b346ea3ea5f6f0afed506195982",
-      "download_count": 11,
+      "download_count": 13,
       "created_at": "2026-10-22T08:15:07Z",
       "updated_at": "2026-10-22T08:15:09Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.16.1/resterm_Windows_arm64.exe"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 66963456,
       "digest": "sha256:c92e5804c00ea6b26d36c6794698716fd7c9a189b10f56d57de8be3112377576",
-      "download_count": 50,
+      "download_count": 57,
       "created_at": "2026-10-22T08:15:07Z",
       "updated_at": "2026-10-22T08:15:10Z",
       "browser_download_url": "https://github.com/unkn0wn-root/resterm/releases/download/v1.16.1/resterm_Windows_x86_64.exe"
@@ -471,5 +471,17 @@
   ],
   "tarball_url": "https://api.github.com/repos/unkn0wn-root/resterm/tarball/v1.16.1",
   "zipball_url": "https://api.github.com/repos/unkn0wn-root/resterm/zipball/v1.16.1",
-  "body": "# v1.16.1\r\n\r\nThis release moves resterm to Go 1.27.3.\r\n\r\n> **Important:** Please update. This release blocks certificates from a compromised certificate authority (eMudhra).\r\n\r\n## Compromised eMudhra certificates\r\n\r\nThe private keys of eight intermediate certificates from the certificate authority eMudhra were so weak that anyone could recover them from the public certificates. With those keys, anyone can issue a valid HTTPS certificate for any website. eMudhra has revoked the certificates, and browsers and operating systems are blocking them. ([CVE-2026-111943](https://go.dev/issue/82345), [Mozilla's write-up](https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/))\r\n\r\nresterm 1.16.1 rejects any certificate chain through these intermediates on every platform. resterm 1.16.0 can still accept them on systems whose certificate store doesn't block them yet.\r\n\r\n## Before you update\r\n\r\n**macOS 12 Monterey is no longer supported.** The macOS binaries need macOS 13 Ventura or newer. On macOS 12, do not run `resterm --update`, because it installs a binary your system does not support. Instead, build 1.16.1 with Go 1.26.10 or a newer 1.26 release, which has the same certificate fix:\r\n\r\n```sh\r\ngo install github.com/unkn0wn-root/resterm/cmd/resterm@v1.16.1\r\n```\r\n\r\nSome TLS-inspecting proxies may drop HTTPS connections. resterm now offers post-quantum (ML-DSA) signature algorithms when it opens a TLS connection. Some proxies and load balancers reset these connections. Reports so far name Palo Alto Prisma Access and F5 BIG-IP (golang/go#81199). If HTTPS requests fail with EOF or connection reset by peer after you update, build with Go 1.26.10.\r\n\r\nFixes\r\n\r\n- An SSE stream that stops at its size or event limit now closes its connection right away instead of reading on in the background.\r\n- Go security fixes for net/http, crypto/tls, net/textproto and html/template: CVE-2026-97031, CVE-2026-94440, CVE-2026-97032, CVE-2026-94439, CVE-2026-78663, CVE-2026-78669, CVE-2026-78660, CVE-2026-78667, CVE-2026-56866, CVE-2026-78659, CVE-2026-97030, CVE-2026-94448.\r\n\r\nOther changes\r\n\r\n- GODEBUG=tlsrsakex=1 and GODEBUG=tls3des=1 no longer turn RSA key exchange or 3DES back on for old servers."
+  "body": "# v1.16.1\r\n\r\nThis release moves resterm to Go 1.27.3.\r\n\r\n> **Important:** Please update. This release blocks certificates from a compromised certificate authority (eMudhra).\r\n\r\n## Compromised eMudhra certificates\r\n\r\nThe private keys of eight intermediate certificates from the certificate authority eMudhra were so weak that anyone could recover them from the public certificates. With those keys, anyone can issue a valid HTTPS certificate for any website. eMudhra has revoked the certificates, and browsers and operating systems are blocking them. ([CVE-2026-111943](https://go.dev/issue/82345), [Mozilla's write-up](https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/))\r\n\r\nresterm 1.16.1 rejects any certificate chain through these intermediates on every platform. resterm 1.16.0 can still accept them on systems whose certificate store doesn't block them yet.\r\n\r\n## Before you update\r\n\r\n**macOS 12 Monterey is no longer supported.** The macOS binaries need macOS 13 Ventura or newer. On macOS 12, do not run `resterm --update`, because it installs a binary your system does not support. Instead, build 1.16.1 with Go 1.26.10 or a newer 1.26 release, which has the same certificate fix:\r\n\r\n```sh\r\ngo install github.com/unkn0wn-root/resterm/cmd/resterm@v1.16.1\r\n```\r\n\r\nSome TLS-inspecting proxies may drop HTTPS connections. resterm now offers post-quantum (ML-DSA) signature algorithms when it opens a TLS connection. Some proxies and load balancers reset these connections. Reports so far name Palo Alto Prisma Access and F5 BIG-IP (golang/go#81199). If HTTPS requests fail with EOF or connection reset by peer after you update, build with Go 1.26.10.\r\n\r\nFixes\r\n\r\n- An SSE stream that stops at its size or event limit now closes its connection right away instead of reading on in the background.\r\n- Go security fixes for net/http, crypto/tls, net/textproto and html/template: CVE-2026-97031, CVE-2026-94440, CVE-2026-97032, CVE-2026-94439, CVE-2026-78663, CVE-2026-78669, CVE-2026-78660, CVE-2026-78667, CVE-2026-56866, CVE-2026-78659, CVE-2026-97030, CVE-2026-94448.\r\n\r\nOther changes\r\n\r\n- GODEBUG=tlsrsakex=1 and GODEBUG=tls3des=1 no longer turn RSA key exchange or 3DES back on for old servers.",
+  "reactions": {
+    "url": "https://api.github.com/repos/unkn0wn-root/resterm/releases/420460268/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
