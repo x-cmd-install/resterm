@@ -48,12 +48,12 @@ Total: **281,037** lines of code across **1314** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-24 | 17 | 59 | 0 | 0 | 0 | 246 |
-| last60d | 2026-08-25 | 32 | 89 | 0 | 1 | 0 | 337 |
-| 90d | 2026-07-26 | 50 | 142 | 0 | 3 | 0 | 429 |
-| last180d | 2026-04-27 | 87 | 218 | 0 | 8 | 0 | 576 |
-| 360d | 2025-10-29 | 100 | 364 | 0 | 36 | 0 | 1250 |
-| last720d | 2024-11-03 | 100 | 430 | 0 | 38 | 0 | 1690 |
+| 30d | 2026-09-25 | 16 | 58 | 0 | 0 | 0 | 201 |
+| last60d | 2026-08-26 | 31 | 87 | 0 | 1 | 0 | 323 |
+| 90d | 2026-07-27 | 50 | 141 | 0 | 3 | 0 | 412 |
+| last180d | 2026-04-28 | 86 | 215 | 0 | 7 | 0 | 547 |
+| 360d | 2025-10-30 | 100 | 364 | 0 | 36 | 0 | 1242 |
+| last720d | 2024-11-04 | 100 | 430 | 0 | 38 | 0 | 1690 |
 
 ## Release assets
 
@@ -74,12 +74,12 @@ Total: **281,037** lines of code across **1314** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **8** distros on [repology.org](https://repology.org/project/resterm). **4** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
+Reported by **8** distros on [repology.org](https://repology.org/project/resterm). **5** are ✅ on the latest upstream release, **2** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Homebrew | `1.16.1` | ✅ latest |
-| Nix unstable | `1.14.0` | ⚠️ outdated |
+| Nix unstable | `1.16.1` | ✅ latest |
 
 ## Improve this data
 
@@ -90,4 +90,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261024.yml` · 2026-10-24T04:29:30Z._
+_Snapshot: `data/card/261025.yml` · 2026-10-25T04:47:55Z._
