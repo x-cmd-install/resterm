@@ -33,27 +33,27 @@ Total: **288,221** lines of code across **1321** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.17.0` (2026-10-27)
-- **Last commit**: 2026-10-27
+- **Last commit**: 2026-10-28
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 1,996 · **Forks**: 60 · **Open issues**: 38 · **Contributors**: 6
+- **Stars**: 1,997 · **Forks**: 60 · **Open issues**: 38 · **Contributors**: 6
 
 ## Totals (cumulative)
 
-- **Releases**: 233 · **Merged PRs**: 435 · **Open PRs**: 0 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1713
+- **Releases**: 233 · **Merged PRs**: 435 · **Open PRs**: 0 · **Closed issues**: 38 · **Open issues**: 0 · **Commits**: 1714
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-28 | 16 | 59 | 0 | 0 | 0 | 222 |
-| last60d | 2026-08-29 | 30 | 89 | 0 | 1 | 0 | 344 |
-| 90d | 2026-07-30 | 50 | 142 | 0 | 3 | 0 | 433 |
-| last180d | 2026-05-01 | 84 | 213 | 0 | 7 | 0 | 568 |
-| 360d | 2025-11-02 | 100 | 367 | 0 | 36 | 0 | 1263 |
-| last720d | 2024-11-07 | 100 | 435 | 0 | 38 | 0 | 1713 |
+| 30d | 2026-09-29 | 14 | 57 | 0 | 0 | 0 | 223 |
+| last60d | 2026-08-30 | 29 | 89 | 0 | 1 | 0 | 345 |
+| 90d | 2026-07-31 | 49 | 140 | 0 | 3 | 0 | 434 |
+| last180d | 2026-05-02 | 84 | 211 | 0 | 7 | 0 | 569 |
+| 360d | 2025-11-03 | 100 | 367 | 0 | 36 | 0 | 1264 |
+| last720d | 2024-11-08 | 100 | 435 | 0 | 38 | 0 | 1714 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Total: **288,221** lines of code across **1321** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **8** distros on [repology.org](https://repology.org/project/resterm). **3** are ✅ on the latest upstream release, **4** are ⚠️ on an older version.
+Reported by **8** distros on [repology.org](https://repology.org/project/resterm). **4** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261028.yml` · 2026-10-28T05:36:16Z._
+_Snapshot: `data/card/261029.yml` · 2026-10-29T05:40:25Z._
