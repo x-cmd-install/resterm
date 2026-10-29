@@ -62,9 +62,9 @@
   srcname: www/resterm
   binname: resterm
   visiblename: www/resterm
-  version: 1.16.1
+  version: 1.17.0
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal client for HTTP/GraphQL/gRPC
   maintainers:
     - drixter@e-utp.net
