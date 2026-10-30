@@ -1,0 +1,172 @@
+about:
+  description: "Terminal API client for HTTP, GraphQL, gRPC, WebSocket and SSE. Plain .http files you can diff and version, with scripted tests, workflows, mocks, recorder, and a CLI runner for CI."
+  license: Apache-2.0
+  homepage: https://resterm.app
+  head: ccbcd33
+  archived: false
+  latestVersion: "v1.17.0"
+  latestRelease: "v1.17.0"
+  latestPrerelease: ""
+  collectedAt: 2026-10-30T05:50:26Z
+timeline:
+  created: 2025-09-30
+  lastCommit: 2026-10-29
+  lastVersion: 2026-10-27
+  lastRelease: 2026-10-27
+  lastPrerelease: 
+popularity:
+  star: 1997
+  watcher: 6
+  fork: 60
+  release: 233
+  contributor: 6
+  pullRequest: 447
+  issue: 38
+language:
+  Go: 8321401
+  TypeScript: 78252
+  Astro: 67891
+  CSS: 10155
+  Shell: 5571
+  PowerShell: 5104
+  Makefile: 463
+  JavaScript: 170
+totalBytes: 8489007
+recent:
+  last30d:
+    since: 2026-09-30
+    release: 13
+    mergedPR: 58
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 226
+  last60d:
+    since: 2026-08-31
+    release: 29
+    mergedPR: 90
+    openPR: 0
+    closedIssue: 1
+    openIssue: 0
+    commit: 348
+  last90d:
+    since: 2026-08-01
+    release: 48
+    mergedPR: 138
+    openPR: 0
+    closedIssue: 3
+    openIssue: 0
+    commit: 437
+  last180d:
+    since: 2026-05-03
+    release: 83
+    mergedPR: 212
+    openPR: 0
+    closedIssue: 7
+    openIssue: 0
+    commit: 572
+  last360d:
+    since: 2025-11-04
+    release: 100
+    mergedPR: 369
+    openPR: 0
+    closedIssue: 36
+    openIssue: 0
+    commit: 1267
+  last720d:
+    since: 2024-11-09
+    release: 100
+    mergedPR: 437
+    openPR: 0
+    closedIssue: 38
+    openIssue: 0
+    commit: 1717
+total:
+  release: 233
+  mergedPR: 437
+  openPR: 0
+  closedIssue: 38
+  openIssue: 0
+  commit: 1717
+---
+path: /home/runner/.x-repo/github.com/unkn0wn-root/resterm
+collectedAt: 2026-10-30T05:50:32Z
+loc:
+  Go:
+    code: 277752
+    comments: 5399
+    blanks: 26858
+    files: 1263
+  Json:
+    code: 7081
+    comments: 0
+    blanks: 0
+    files: 18
+  TypeScript:
+    code: 1962
+    comments: 58
+    blanks: 250
+    files: 35
+  Yaml:
+    code: 607
+    comments: 0
+    blanks: 0
+    files: 2
+  Css:
+    code: 493
+    comments: 7
+    blanks: 79
+    files: 3
+  Toml:
+    code: 488
+    comments: 12
+    blanks: 168
+    files: 3
+  Sh:
+    code: 163
+    comments: 4
+    blanks: 39
+    files: 2
+  PowerShell:
+    code: 149
+    comments: 0
+    blanks: 34
+    files: 1
+  Graphql:
+    code: 17
+    comments: 0
+    blanks: 0
+    files: 1
+  Makefile:
+    code: 17
+    comments: 0
+    blanks: 7
+    files: 1
+  Svg:
+    code: 11
+    comments: 0
+    blanks: 0
+    files: 1
+  JavaScript:
+    code: 6
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 4678
+    blanks: 2470
+    files: 78
+  Text:
+    code: 0
+    comments: 229
+    blanks: 51
+    files: 2
+total:
+  code: 289065
+  comments: 10402
+  blanks: 29977
+  files: 1411
+---
+
+---
