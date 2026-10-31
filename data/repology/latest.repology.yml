@@ -2,8 +2,8 @@
   srcname: resterm-bin
   binname: resterm-bin
   visiblename: resterm-bin
-  version: 1.17.0
-  origversion: 1.17.0-1
+  version: 1.17.2
+  origversion: 1.17.2-1
   status: newest
   summary: Terminal REST client for .http/.rest files with HTTP, GraphQL and gRPC support
   maintainers:
@@ -13,7 +13,7 @@
 - repo: homebrew
   srcname: resterm
   visiblename: resterm
-  version: 1.17.0
+  version: 1.17.2
   origversion: null
   status: newest
   summary: Terminal client for .http/.rest files with HTTP, GraphQL, and gRPC support
@@ -64,7 +64,7 @@
   visiblename: www/resterm
   version: 1.17.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Terminal client for HTTP/GraphQL/gRPC
   maintainers:
     - drixter@e-utp.net
@@ -74,7 +74,7 @@
   subrepo: main
   binname: resterm
   visiblename: resterm
-  version: 1.17.0
+  version: 1.17.2
   origversion: null
   status: newest
   licenses:
