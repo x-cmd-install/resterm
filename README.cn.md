@@ -14,11 +14,11 @@ x install resterm
 
 ## 代码洞察
 
-合计: **288,746** 行代码（覆盖前 5 种语言、共 **1321** 个文件）。
+合计: **290,557** 行代码（覆盖前 5 种语言、共 **1328** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 277,752 | 5,399 | 26,858 | 1263 |
+| Go | 279,563 | 5,451 | 26,999 | 1270 |
 | Json | 7,081 | 0 | 0 | 18 |
 | TypeScript | 1,962 | 58 | 250 | 35 |
 | Yaml | 607 | 0 | 0 | 2 |
@@ -32,53 +32,53 @@ x install resterm
 
 ## 发布
 
-- **最新版本**: `v1.17.0` (2026-10-27)
-- **最近提交**: 2026-10-29
+- **最新版本**: `v1.17.2` (2026-10-30)
+- **最近提交**: 2026-10-30
 - **Release 含资产**: 12 个
 
 ## 流行度
 
-- **Star**: 1,997 · **Fork**: 60 · **开放 issue**: 38 · **贡献者**: 6
+- **Star**: 1,997 · **Fork**: 60 · **开放 issue**: 39 · **贡献者**: 6
 
 ## 累计统计
 
-- **发布数**: 233 · **已合并 PR**: 437 · **开放 PR**: 0 · **已关闭 issue**: 38 · **开放 issue**: 0 · **提交数**: 1717
+- **发布数**: 235 · **已合并 PR**: 440 · **开放 PR**: 0 · **已关闭 issue**: 39 · **开放 issue**: 0 · **提交数**: 1735
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 13 | 58 | 0 | 0 | 0 | 226 |
-| last60d | 2026-08-31 | 29 | 90 | 0 | 1 | 0 | 348 |
-| 90d | 2026-08-01 | 48 | 138 | 0 | 3 | 0 | 437 |
-| last180d | 2026-05-03 | 83 | 212 | 0 | 7 | 0 | 572 |
-| 360d | 2025-11-04 | 100 | 369 | 0 | 36 | 0 | 1267 |
-| last720d | 2024-11-09 | 100 | 437 | 0 | 38 | 0 | 1717 |
+| 30d | 2026-10-01 | 15 | 58 | 0 | 1 | 0 | 241 |
+| last60d | 2026-09-01 | 30 | 93 | 0 | 2 | 0 | 363 |
+| 90d | 2026-08-02 | 49 | 139 | 0 | 4 | 0 | 452 |
+| last180d | 2026-05-04 | 84 | 212 | 0 | 8 | 0 | 587 |
+| 360d | 2025-11-05 | 100 | 371 | 0 | 37 | 0 | 1282 |
+| last720d | 2024-11-10 | 100 | 440 | 0 | 39 | 0 | 1735 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Darwin_arm64) | 61.8 MiB | `native/darwin/arm64` |
-| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
-| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Darwin_x86_64) | 65.5 MiB | `native/darwin/x64` |
-| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
-| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Linux_arm64) | 59.9 MiB | `native/linux/arm64` |
-| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
-| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Linux_x86_64) | 64.2 MiB | `native/linux/x64` |
-| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
-| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Windows_arm64.exe) | 60.5 MiB | `native/win/arm64` |
-| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
-| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Windows_x86_64.exe) | 65.3 MiB | `native/win/x64` |
-| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.0/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
+| [resterm_Darwin_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Darwin_arm64) | 61.8 MiB | `native/darwin/arm64` |
+| [resterm_Darwin_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Darwin_arm64.sha256) | 87 B | `native/darwin/arm64` |
+| [resterm_Darwin_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Darwin_x86_64) | 65.5 MiB | `native/darwin/x64` |
+| [resterm_Darwin_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Darwin_x86_64.sha256) | 88 B | `native/darwin/x64` |
+| [resterm_Linux_arm64](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Linux_arm64) | 59.9 MiB | `native/linux/arm64` |
+| [resterm_Linux_arm64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Linux_arm64.sha256) | 86 B | `native/linux/arm64` |
+| [resterm_Linux_x86_64](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Linux_x86_64) | 64.2 MiB | `native/linux/x64` |
+| [resterm_Linux_x86_64.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Linux_x86_64.sha256) | 87 B | `native/linux/x64` |
+| [resterm_Windows_arm64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Windows_arm64.exe) | 60.5 MiB | `native/win/arm64` |
+| [resterm_Windows_arm64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Windows_arm64.exe.sha256) | 92 B | `native/win/arm64` |
+| [resterm_Windows_x86_64.exe](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Windows_x86_64.exe) | 65.3 MiB | `native/win/x64` |
+| [resterm_Windows_x86_64.exe.sha256](https://github.com/unkn0wn-root/resterm/releases/download/v1.17.2/resterm_Windows_x86_64.exe.sha256) | 93 B | `native/win/x64` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/resterm) 上共有 **8** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**3** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/resterm) 上共有 **8** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**4** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Homebrew | `1.17.0` | ✅ latest |
+| Homebrew | `1.17.2` | ✅ latest |
 | Nix unstable | `1.16.1` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -90,4 +90,4 @@ resterm 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261030.yml` · 2026-10-30T05:50:39Z._
+_数据快照: `data/card/261031.yml` · 2026-10-31T05:35:20Z._
