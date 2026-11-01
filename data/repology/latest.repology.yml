@@ -62,7 +62,7 @@
   srcname: www/resterm
   binname: resterm
   visiblename: www/resterm
-  version: 1.17.0
+  version: 1.17.1
   origversion: null
   status: outdated
   summary: Terminal client for HTTP/GraphQL/gRPC
