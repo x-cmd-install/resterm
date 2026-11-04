@@ -38,7 +38,7 @@ Total: **290,557** lines of code across **1328** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 1,999 · **Forks**: 60 · **Open issues**: 39 · **Contributors**: 6
+- **Stars**: 2,004 · **Forks**: 61 · **Open issues**: 39 · **Contributors**: 6
 
 ## Totals (cumulative)
 
@@ -48,12 +48,12 @@ Total: **290,557** lines of code across **1328** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 13 | 50 | 0 | 1 | 0 | 178 |
-| last60d | 2026-09-04 | 27 | 87 | 0 | 2 | 0 | 318 |
-| 90d | 2026-08-05 | 47 | 130 | 0 | 4 | 0 | 432 |
-| last180d | 2026-05-07 | 81 | 209 | 0 | 8 | 0 | 575 |
-| 360d | 2025-11-08 | 100 | 367 | 0 | 34 | 0 | 1253 |
-| last720d | 2024-11-13 | 100 | 440 | 0 | 39 | 0 | 1735 |
+| 30d | 2026-10-05 | 12 | 46 | 0 | 1 | 0 | 178 |
+| last60d | 2026-09-05 | 26 | 86 | 0 | 2 | 0 | 318 |
+| 90d | 2026-08-06 | 45 | 127 | 0 | 4 | 0 | 432 |
+| last180d | 2026-05-08 | 81 | 205 | 0 | 7 | 0 | 575 |
+| 360d | 2025-11-09 | 100 | 366 | 0 | 34 | 0 | 1253 |
+| last720d | 2024-11-14 | 100 | 440 | 0 | 39 | 0 | 1735 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T06:55:21Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:09:14Z._
