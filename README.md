@@ -14,11 +14,11 @@ x install resterm
 
 ## Code insight
 
-Total: **290,557** lines of code across **1328** files in the top 5 languages.
+Total: **292,889** lines of code across **1332** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 279,563 | 5,451 | 26,999 | 1270 |
+| Go | 281,895 | 5,543 | 27,122 | 1274 |
 | Json | 7,081 | 0 | 0 | 18 |
 | TypeScript | 1,962 | 58 | 250 | 35 |
 | Yaml | 607 | 0 | 0 | 2 |
@@ -33,27 +33,27 @@ Total: **290,557** lines of code across **1328** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.17.2` (2026-10-30)
-- **Last commit**: 2026-10-30
+- **Last commit**: 2026-11-04
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 2,004 · **Forks**: 61 · **Open issues**: 39 · **Contributors**: 6
+- **Stars**: 2,006 · **Forks**: 61 · **Open issues**: 39 · **Contributors**: 6
 
 ## Totals (cumulative)
 
-- **Releases**: 235 · **Merged PRs**: 440 · **Open PRs**: 0 · **Closed issues**: 39 · **Open issues**: 0 · **Commits**: 1735
+- **Releases**: 235 · **Merged PRs**: 446 · **Open PRs**: 0 · **Closed issues**: 39 · **Open issues**: 0 · **Commits**: 1748
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 12 | 46 | 0 | 1 | 0 | 178 |
-| last60d | 2026-09-05 | 26 | 86 | 0 | 2 | 0 | 318 |
-| 90d | 2026-08-06 | 45 | 127 | 0 | 4 | 0 | 432 |
-| last180d | 2026-05-08 | 81 | 205 | 0 | 7 | 0 | 575 |
-| 360d | 2025-11-09 | 100 | 366 | 0 | 34 | 0 | 1253 |
-| last720d | 2024-11-14 | 100 | 440 | 0 | 39 | 0 | 1735 |
+| 30d | 2026-10-06 | 11 | 49 | 0 | 1 | 0 | 187 |
+| last60d | 2026-09-06 | 26 | 92 | 0 | 2 | 0 | 327 |
+| 90d | 2026-08-07 | 45 | 132 | 0 | 4 | 0 | 441 |
+| last180d | 2026-05-09 | 80 | 211 | 0 | 7 | 0 | 584 |
+| 360d | 2025-11-10 | 100 | 372 | 0 | 34 | 0 | 1262 |
+| last720d | 2024-11-15 | 100 | 446 | 0 | 39 | 0 | 1748 |
 
 ## Release assets
 
@@ -74,12 +74,12 @@ Total: **290,557** lines of code across **1328** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **8** distros on [repology.org](https://repology.org/project/resterm). **4** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
+Reported by **8** distros on [repology.org](https://repology.org/project/resterm). **5** are ✅ on the latest upstream release, **2** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Homebrew | `1.17.2` | ✅ latest |
-| Nix unstable | `1.16.1` | ⚠️ outdated |
+| Nix unstable | `1.17.2` | ✅ latest |
 
 ## Improve this data
 
@@ -90,4 +90,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:09:14Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:39:05Z._
