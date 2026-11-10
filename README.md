@@ -2,7 +2,7 @@
 
 [中文版本](./README.cn.md)
 
-Terminal API client for HTTP, GraphQL, gRPC, WebSocket and SSE. Plain .http files you can diff and version, with scripted tests, workflows, mocks, recorder, and a CLI runner for CI.
+Terminal API client for HTTP, GraphQL, gRPC, WebSocket and SSE. Plain .http files you can diff and version, with scripted tests, workflows, mocks, recorder, and a CLI runner.
 
 [![x-cmd/install — resterm Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/resterm.svg)](https://x-cmd.com/install/resterm)
 
@@ -14,11 +14,11 @@ x install resterm
 
 ## Code insight
 
-Total: **301,857** lines of code across **1356** files in the top 5 languages.
+Total: **302,587** lines of code across **1356** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 290,863 | 5,658 | 27,588 | 1298 |
+| Go | 291,593 | 5,663 | 27,635 | 1298 |
 | Json | 7,081 | 0 | 0 | 18 |
 | TypeScript | 1,962 | 58 | 250 | 35 |
 | Yaml | 607 | 0 | 0 | 2 |
@@ -33,27 +33,27 @@ Total: **301,857** lines of code across **1356** files in the top 5 languages.
 ## Release
 
 - **Latest**: `v1.18.0` (2026-11-07)
-- **Last commit**: 2026-11-07
+- **Last commit**: 2026-11-09
 - **Assets in release**: 12
 
 ## Popularity
 
-- **Stars**: 2,010 · **Forks**: 61 · **Open issues**: 39 · **Contributors**: 6
+- **Stars**: 2,011 · **Forks**: 61 · **Open issues**: 39 · **Contributors**: 6
 
 ## Totals (cumulative)
 
-- **Releases**: 236 · **Merged PRs**: 454 · **Open PRs**: 0 · **Closed issues**: 39 · **Open issues**: 0 · **Commits**: 1787
+- **Releases**: 236 · **Merged PRs**: 455 · **Open PRs**: 0 · **Closed issues**: 39 · **Open issues**: 0 · **Commits**: 1792
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 9 | 45 | 0 | 1 | 0 | 122 |
-| last60d | 2026-09-09 | 23 | 90 | 0 | 1 | 0 | 354 |
-| 90d | 2026-08-10 | 45 | 138 | 0 | 4 | 0 | 447 |
-| last180d | 2026-05-12 | 81 | 218 | 0 | 7 | 0 | 594 |
-| 360d | 2025-11-13 | 100 | 377 | 0 | 34 | 0 | 1287 |
-| last720d | 2024-11-18 | 100 | 454 | 0 | 39 | 0 | 1787 |
+| 30d | 2026-10-11 | 8 | 45 | 0 | 1 | 0 | 126 |
+| last60d | 2026-09-11 | 23 | 91 | 0 | 1 | 0 | 358 |
+| 90d | 2026-08-12 | 44 | 131 | 0 | 4 | 0 | 451 |
+| last180d | 2026-05-14 | 78 | 211 | 0 | 7 | 0 | 598 |
+| 360d | 2025-11-15 | 100 | 378 | 0 | 33 | 0 | 1291 |
+| last720d | 2024-11-20 | 100 | 455 | 0 | 39 | 0 | 1792 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Total: **301,857** lines of code across **1356** files in the top 5 languages.
 
 ## Distribution status
 
-Reported by **8** distros on [repology.org](https://repology.org/project/resterm). **3** are ✅ on the latest upstream release, **4** are ⚠️ on an older version.
+Reported by **8** distros on [repology.org](https://repology.org/project/resterm). **4** are ✅ on the latest upstream release, **3** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,4 +90,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T05:54:55Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:15:33Z._
