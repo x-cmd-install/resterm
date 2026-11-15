@@ -48,12 +48,12 @@ Total: **302,603** lines of code across **1356** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 8 | 37 | 0 | 1 | 0 | 130 |
-| last60d | 2026-09-15 | 24 | 92 | 0 | 1 | 0 | 362 |
-| 90d | 2026-08-16 | 43 | 126 | 0 | 3 | 0 | 455 |
-| last180d | 2026-05-18 | 77 | 211 | 0 | 7 | 0 | 602 |
-| 360d | 2025-11-19 | 100 | 378 | 0 | 33 | 0 | 1295 |
-| last720d | 2024-11-24 | 100 | 456 | 0 | 39 | 0 | 1797 |
+| 30d | 2026-10-16 | 8 | 32 | 0 | 1 | 0 | 0 |
+| last60d | 2026-09-16 | 24 | 91 | 0 | 1 | 0 | 0 |
+| 90d | 2026-08-17 | 43 | 126 | 0 | 3 | 0 | 0 |
+| last180d | 2026-05-19 | 76 | 211 | 0 | 7 | 0 | 0 |
+| 360d | 2025-11-20 | 100 | 376 | 0 | 33 | 0 | 0 |
+| last720d | 2024-11-25 | 100 | 456 | 0 | 39 | 0 | 1797 |
 
 ## Release assets
 
@@ -90,4 +90,4 @@ Install metadata for resterm lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:23:26Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:26:57Z._
