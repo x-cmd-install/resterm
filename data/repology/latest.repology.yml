@@ -51,7 +51,7 @@
   binname: resterm
   visiblename: www/resterm
   version: 1.8.2
-  origversion: 1.8.2nb1
+  origversion: 1.8.2nb2
   status: outdated
   summary: Terminal client for HTTP/GraphQL/gRPC
   maintainers:
