@@ -1,3 +1,10 @@
+- repo: homebrew
+  srcname: resterm
+  visiblename: resterm
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal client for .http/.rest files with HTTP, GraphQL, and gRPC support
 - repo: aur
   srcname: resterm-bin
   binname: resterm-bin
@@ -16,13 +23,6 @@
   version: 1.18.2
   origversion: null
   status: newest
-  summary: Terminal client for .http/.rest files with HTTP, GraphQL, and gRPC support
-- repo: homebrew
-  srcname: resterm
-  visiblename: resterm
-  version: HEAD
-  origversion: null
-  status: rolling
   summary: Terminal client for .http/.rest files with HTTP, GraphQL, and gRPC support
 - repo: nix_stable_26_05
   srcname: resterm
@@ -62,9 +62,9 @@
   srcname: www/resterm
   binname: resterm
   visiblename: www/resterm
-  version: 1.18.1
+  version: 1.18.2
   origversion: null
-  status: outdated
+  status: newest
   summary: Terminal client for HTTP/GraphQL/gRPC
   maintainers:
     - drixter@e-utp.net
